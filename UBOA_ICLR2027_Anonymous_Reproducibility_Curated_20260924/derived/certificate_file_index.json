@@ -1,0 +1,2162 @@
+[
+  {
+    "file": "mae_node_1.npz",
+    "history": "H01",
+    "node": 1,
+    "original_history_id": "B1_MAE_NEG__0",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H01",
+    "node": 2,
+    "original_history_id": "B1_MAE_NEG__0",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H01",
+    "node": 3,
+    "original_history_id": "B1_MAE_NEG__0",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H02",
+    "node": 1,
+    "original_history_id": "B1_MAE_NEG__1",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H02",
+    "node": 2,
+    "original_history_id": "B1_MAE_NEG__1",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H02",
+    "node": 3,
+    "original_history_id": "B1_MAE_NEG__1",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H03",
+    "node": 1,
+    "original_history_id": "B1_MAE_NEG__2",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H03",
+    "node": 2,
+    "original_history_id": "B1_MAE_NEG__2",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H03",
+    "node": 3,
+    "original_history_id": "B1_MAE_NEG__2",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H04",
+    "node": 1,
+    "original_history_id": "B1_MAE_NEG__3",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H04",
+    "node": 2,
+    "original_history_id": "B1_MAE_NEG__3",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H04",
+    "node": 3,
+    "original_history_id": "B1_MAE_NEG__3",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H05",
+    "node": 1,
+    "original_history_id": "B1_MAE_NEG__4",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H05",
+    "node": 2,
+    "original_history_id": "B1_MAE_NEG__4",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H05",
+    "node": 3,
+    "original_history_id": "B1_MAE_NEG__4",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H06",
+    "node": 1,
+    "original_history_id": "B1_MAE_NEG__5",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H06",
+    "node": 2,
+    "original_history_id": "B1_MAE_NEG__5",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H06",
+    "node": 3,
+    "original_history_id": "B1_MAE_NEG__5",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H07",
+    "node": 1,
+    "original_history_id": "B1_MAE_NEG__6",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H07",
+    "node": 2,
+    "original_history_id": "B1_MAE_NEG__6",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H07",
+    "node": 3,
+    "original_history_id": "B1_MAE_NEG__6",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H08",
+    "node": 1,
+    "original_history_id": "B1_MAE_NEG__7",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H08",
+    "node": 2,
+    "original_history_id": "B1_MAE_NEG__7",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H08",
+    "node": 3,
+    "original_history_id": "B1_MAE_NEG__7",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H09",
+    "node": 1,
+    "original_history_id": "B1_MAE_B02__0",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H09",
+    "node": 2,
+    "original_history_id": "B1_MAE_B02__0",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H09",
+    "node": 3,
+    "original_history_id": "B1_MAE_B02__0",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H10",
+    "node": 1,
+    "original_history_id": "B1_MAE_B02__1",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H10",
+    "node": 2,
+    "original_history_id": "B1_MAE_B02__1",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H10",
+    "node": 3,
+    "original_history_id": "B1_MAE_B02__1",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H11",
+    "node": 1,
+    "original_history_id": "B1_MAE_B02__2",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H11",
+    "node": 2,
+    "original_history_id": "B1_MAE_B02__2",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H11",
+    "node": 3,
+    "original_history_id": "B1_MAE_B02__2",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H12",
+    "node": 1,
+    "original_history_id": "B1_MAE_B02__3",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H12",
+    "node": 2,
+    "original_history_id": "B1_MAE_B02__3",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H12",
+    "node": 3,
+    "original_history_id": "B1_MAE_B02__3",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H13",
+    "node": 1,
+    "original_history_id": "B1_MAE_B02__4",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H13",
+    "node": 2,
+    "original_history_id": "B1_MAE_B02__4",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H13",
+    "node": 3,
+    "original_history_id": "B1_MAE_B02__4",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H14",
+    "node": 1,
+    "original_history_id": "B1_MAE_B02__5",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H14",
+    "node": 2,
+    "original_history_id": "B1_MAE_B02__5",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H14",
+    "node": 3,
+    "original_history_id": "B1_MAE_B02__5",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H15",
+    "node": 1,
+    "original_history_id": "B1_MAE_B02__6",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H15",
+    "node": 2,
+    "original_history_id": "B1_MAE_B02__6",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H15",
+    "node": 3,
+    "original_history_id": "B1_MAE_B02__6",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H16",
+    "node": 1,
+    "original_history_id": "B1_MAE_B02__7",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H16",
+    "node": 2,
+    "original_history_id": "B1_MAE_B02__7",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H16",
+    "node": 3,
+    "original_history_id": "B1_MAE_B02__7",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H17",
+    "node": 1,
+    "original_history_id": "B1_MAE_B05__0",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H17",
+    "node": 2,
+    "original_history_id": "B1_MAE_B05__0",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H17",
+    "node": 3,
+    "original_history_id": "B1_MAE_B05__0",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H18",
+    "node": 1,
+    "original_history_id": "B1_MAE_B05__1",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H18",
+    "node": 2,
+    "original_history_id": "B1_MAE_B05__1",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H18",
+    "node": 3,
+    "original_history_id": "B1_MAE_B05__1",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H19",
+    "node": 1,
+    "original_history_id": "B1_MAE_B05__2",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H19",
+    "node": 2,
+    "original_history_id": "B1_MAE_B05__2",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H19",
+    "node": 3,
+    "original_history_id": "B1_MAE_B05__2",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H20",
+    "node": 1,
+    "original_history_id": "B1_MAE_B05__3",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H20",
+    "node": 2,
+    "original_history_id": "B1_MAE_B05__3",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H20",
+    "node": 3,
+    "original_history_id": "B1_MAE_B05__3",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H21",
+    "node": 1,
+    "original_history_id": "B1_MAE_B05__4",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H21",
+    "node": 2,
+    "original_history_id": "B1_MAE_B05__4",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H21",
+    "node": 3,
+    "original_history_id": "B1_MAE_B05__4",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H22",
+    "node": 1,
+    "original_history_id": "B1_MAE_B05__5",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H22",
+    "node": 2,
+    "original_history_id": "B1_MAE_B05__5",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H22",
+    "node": 3,
+    "original_history_id": "B1_MAE_B05__5",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H23",
+    "node": 1,
+    "original_history_id": "B1_MAE_B05__6",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H23",
+    "node": 2,
+    "original_history_id": "B1_MAE_B05__6",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H23",
+    "node": 3,
+    "original_history_id": "B1_MAE_B05__6",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H24",
+    "node": 1,
+    "original_history_id": "B1_MAE_B05__7",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H24",
+    "node": 2,
+    "original_history_id": "B1_MAE_B05__7",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H24",
+    "node": 3,
+    "original_history_id": "B1_MAE_B05__7",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H25",
+    "node": 1,
+    "original_history_id": "B1_MAE_ALT08__0",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H25",
+    "node": 2,
+    "original_history_id": "B1_MAE_ALT08__0",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H25",
+    "node": 3,
+    "original_history_id": "B1_MAE_ALT08__0",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H26",
+    "node": 1,
+    "original_history_id": "B1_MAE_ALT08__1",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H26",
+    "node": 2,
+    "original_history_id": "B1_MAE_ALT08__1",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H26",
+    "node": 3,
+    "original_history_id": "B1_MAE_ALT08__1",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H27",
+    "node": 1,
+    "original_history_id": "B1_MAE_ALT08__2",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H27",
+    "node": 2,
+    "original_history_id": "B1_MAE_ALT08__2",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H27",
+    "node": 3,
+    "original_history_id": "B1_MAE_ALT08__2",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H28",
+    "node": 1,
+    "original_history_id": "B1_MAE_ALT08__3",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H28",
+    "node": 2,
+    "original_history_id": "B1_MAE_ALT08__3",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H28",
+    "node": 3,
+    "original_history_id": "B1_MAE_ALT08__3",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H29",
+    "node": 1,
+    "original_history_id": "B1_MAE_ALT08__4",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H29",
+    "node": 2,
+    "original_history_id": "B1_MAE_ALT08__4",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H29",
+    "node": 3,
+    "original_history_id": "B1_MAE_ALT08__4",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H30",
+    "node": 1,
+    "original_history_id": "B1_MAE_ALT08__5",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H30",
+    "node": 2,
+    "original_history_id": "B1_MAE_ALT08__5",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H30",
+    "node": 3,
+    "original_history_id": "B1_MAE_ALT08__5",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H31",
+    "node": 1,
+    "original_history_id": "B1_MAE_ALT08__6",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H31",
+    "node": 2,
+    "original_history_id": "B1_MAE_ALT08__6",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H31",
+    "node": 3,
+    "original_history_id": "B1_MAE_ALT08__6",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H32",
+    "node": 1,
+    "original_history_id": "B1_MAE_ALT08__7",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H32",
+    "node": 2,
+    "original_history_id": "B1_MAE_ALT08__7",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H32",
+    "node": 3,
+    "original_history_id": "B1_MAE_ALT08__7",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H33",
+    "node": 1,
+    "original_history_id": "B1_MAE_STR40__0",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H33",
+    "node": 2,
+    "original_history_id": "B1_MAE_STR40__0",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H33",
+    "node": 3,
+    "original_history_id": "B1_MAE_STR40__0",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H34",
+    "node": 1,
+    "original_history_id": "B1_MAE_STR40__1",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H34",
+    "node": 2,
+    "original_history_id": "B1_MAE_STR40__1",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H34",
+    "node": 3,
+    "original_history_id": "B1_MAE_STR40__1",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H35",
+    "node": 1,
+    "original_history_id": "B1_MAE_STR40__2",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H35",
+    "node": 2,
+    "original_history_id": "B1_MAE_STR40__2",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H35",
+    "node": 3,
+    "original_history_id": "B1_MAE_STR40__2",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H36",
+    "node": 1,
+    "original_history_id": "B1_MAE_STR40__3",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H36",
+    "node": 2,
+    "original_history_id": "B1_MAE_STR40__3",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H36",
+    "node": 3,
+    "original_history_id": "B1_MAE_STR40__3",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H37",
+    "node": 1,
+    "original_history_id": "B1_MAE_STR40__4",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H37",
+    "node": 2,
+    "original_history_id": "B1_MAE_STR40__4",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H37",
+    "node": 3,
+    "original_history_id": "B1_MAE_STR40__4",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H38",
+    "node": 1,
+    "original_history_id": "B1_MAE_STR40__5",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H38",
+    "node": 2,
+    "original_history_id": "B1_MAE_STR40__5",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H38",
+    "node": 3,
+    "original_history_id": "B1_MAE_STR40__5",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H39",
+    "node": 1,
+    "original_history_id": "B1_MAE_STR40__6",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H39",
+    "node": 2,
+    "original_history_id": "B1_MAE_STR40__6",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H39",
+    "node": 3,
+    "original_history_id": "B1_MAE_STR40__6",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "mae_node_1.npz",
+    "history": "H40",
+    "node": 1,
+    "original_history_id": "B1_MAE_STR40__7",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e3aa12500d954080ed66d0e24e786c4a57da40978492635f5958a60932467990"
+  },
+  {
+    "file": "mae_node_2.npz",
+    "history": "H40",
+    "node": 2,
+    "original_history_id": "B1_MAE_STR40__7",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "757981bf61de47ff1e2ccc5caa47b3d8bbe603f66c5ea17898b7b8e4183595ea"
+  },
+  {
+    "file": "mae_node_3.npz",
+    "history": "H40",
+    "node": 3,
+    "original_history_id": "B1_MAE_STR40__7",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e7d923c4aa84df2200a274dcbf77dbbebfdfb4b1d13595fe094bef3832ce56e"
+  },
+  {
+    "file": "H41_node_1.npz",
+    "history": "H41",
+    "node": 1,
+    "original_history_id": "QB_MSE_NEG__0",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "9ebb85cf9c04a6bd9b23e960b92242d1a5307cb3ff65a8f7d0c40387868c4d34"
+  },
+  {
+    "file": "H41_node_2.npz",
+    "history": "H41",
+    "node": 2,
+    "original_history_id": "QB_MSE_NEG__0",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "a8203bcafcb005358cc3c3eec2a0fc3f503eaa83e982b9a40ba80dda72345dc4"
+  },
+  {
+    "file": "H41_node_3.npz",
+    "history": "H41",
+    "node": 3,
+    "original_history_id": "QB_MSE_NEG__0",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "2a9392b58aabfd09f6d489653cb8bc9ed448729d15c58d2bc87cc302d756282a"
+  },
+  {
+    "file": "H42_node_1.npz",
+    "history": "H42",
+    "node": 1,
+    "original_history_id": "QB_MSE_NEG__1",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "469db3f18fa5bfe41a41169d5fe2f98c60c0e524f20108cc18d6eb3f4e76e11e"
+  },
+  {
+    "file": "H42_node_2.npz",
+    "history": "H42",
+    "node": 2,
+    "original_history_id": "QB_MSE_NEG__1",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "3ffd7a53cc612df514791bd9cd6872ed630690f5e62ef9ed6a998cd12b7ecad8"
+  },
+  {
+    "file": "H42_node_3.npz",
+    "history": "H42",
+    "node": 3,
+    "original_history_id": "QB_MSE_NEG__1",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "d38ba05668943ba520216cebad119ddc07e0272990d7792940de276ce3556210"
+  },
+  {
+    "file": "H43_node_1.npz",
+    "history": "H43",
+    "node": 1,
+    "original_history_id": "QB_MSE_NEG__2",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "f414a659da6df706ebf2394d79402870cd51cdc6ce748655df177377f5a7db54"
+  },
+  {
+    "file": "H43_node_2.npz",
+    "history": "H43",
+    "node": 2,
+    "original_history_id": "QB_MSE_NEG__2",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "6c0120aab04829fa9bec8edf704037c2c01035c94704397d3dae4185411ba0cf"
+  },
+  {
+    "file": "H43_node_3.npz",
+    "history": "H43",
+    "node": 3,
+    "original_history_id": "QB_MSE_NEG__2",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "457c1527acbcb2b405f854ff640c4d5b455e1fc3a7309c15203933af7359a66c"
+  },
+  {
+    "file": "H44_node_1.npz",
+    "history": "H44",
+    "node": 1,
+    "original_history_id": "QB_MSE_NEG__3",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "965793d6f840e6568d3ee8ff50d7f861bf7e5b69d591729608fb0e6bdcb97c1a"
+  },
+  {
+    "file": "H44_node_2.npz",
+    "history": "H44",
+    "node": 2,
+    "original_history_id": "QB_MSE_NEG__3",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "fe320eb26cacd4234090d68579d39d0d6fdab50cc9daff3d2887002cfaa9d2b0"
+  },
+  {
+    "file": "H44_node_3.npz",
+    "history": "H44",
+    "node": 3,
+    "original_history_id": "QB_MSE_NEG__3",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "ca91a2e4dc75d6900dc0450276b4e2adb1e97ab48b14dd13f8d55eabce59da1c"
+  },
+  {
+    "file": "H45_node_1.npz",
+    "history": "H45",
+    "node": 1,
+    "original_history_id": "QB_MSE_NEG__4",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "c8153791ebbe298d82a036fa24a5a189d83fec6c181e0eb68014454f4c77996c"
+  },
+  {
+    "file": "H45_node_2.npz",
+    "history": "H45",
+    "node": 2,
+    "original_history_id": "QB_MSE_NEG__4",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "7ce108405400370464cbaecffd915af14d49230dac5c5296b22bb6c16077e7b2"
+  },
+  {
+    "file": "H45_node_3.npz",
+    "history": "H45",
+    "node": 3,
+    "original_history_id": "QB_MSE_NEG__4",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "3633ff01e0a5984807877e014b58abc8fe9b49cd2c65c8fb6d9851387afa36f2"
+  },
+  {
+    "file": "H46_node_1.npz",
+    "history": "H46",
+    "node": 1,
+    "original_history_id": "QB_MSE_NEG__5",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "be6b65d153529006c6cb8bb060ad1e40c6575562d366ae96445bc37fc9df4fea"
+  },
+  {
+    "file": "H46_node_2.npz",
+    "history": "H46",
+    "node": 2,
+    "original_history_id": "QB_MSE_NEG__5",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "399ce496bf5f26050e11ad520a67f3e64b9b80e1210ae5d78559ef3900409cb4"
+  },
+  {
+    "file": "H46_node_3.npz",
+    "history": "H46",
+    "node": 3,
+    "original_history_id": "QB_MSE_NEG__5",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e8f46f7dda062c5b6476869a595e3a69329839f675f3e2872559d1895ed8254a"
+  },
+  {
+    "file": "H47_node_1.npz",
+    "history": "H47",
+    "node": 1,
+    "original_history_id": "QB_MSE_NEG__6",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "d8562c3d37b54a9229447be683621e787f012f3b28143be8f021f26954f35c1c"
+  },
+  {
+    "file": "H47_node_2.npz",
+    "history": "H47",
+    "node": 2,
+    "original_history_id": "QB_MSE_NEG__6",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "99190d5d5959396ad69d9dab8cd45719256209342d8185c877e756ddf902783a"
+  },
+  {
+    "file": "H47_node_3.npz",
+    "history": "H47",
+    "node": 3,
+    "original_history_id": "QB_MSE_NEG__6",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "36399a6ed2d81c682ec9dbd29c591288840984cd420a86214eb9f558172f52c2"
+  },
+  {
+    "file": "H48_node_1.npz",
+    "history": "H48",
+    "node": 1,
+    "original_history_id": "QB_MSE_NEG__7",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "232b67527d36631a441c5b6d5644adf270b3d5deee91567f4e9e6820857a9a0c"
+  },
+  {
+    "file": "H48_node_2.npz",
+    "history": "H48",
+    "node": 2,
+    "original_history_id": "QB_MSE_NEG__7",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "555d35ab3723d2b640c3db0762d90358b6dc683607753e5ae68c526c8af8aa92"
+  },
+  {
+    "file": "H48_node_3.npz",
+    "history": "H48",
+    "node": 3,
+    "original_history_id": "QB_MSE_NEG__7",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "db90f3dd5443c79ad2b6c708ae4c69f1d43c9959f5ab3cfe31f5e151451252b7"
+  },
+  {
+    "file": "H49_node_1.npz",
+    "history": "H49",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM02__0",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "f0076b42e67fda049984a4b65089b2eba3e35bf16ff72ea02e1af80f7076668b"
+  },
+  {
+    "file": "H49_node_2.npz",
+    "history": "H49",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM02__0",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "019ce2fc456db576c9c4d238d7c03b2f56d20c9f26c594713be49bdcd07aba57"
+  },
+  {
+    "file": "H49_node_3.npz",
+    "history": "H49",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM02__0",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "26caaf0be8b10c85fcec85dca03f0caf47a1a928bb1e4d3d2031490f616c2957"
+  },
+  {
+    "file": "H50_node_1.npz",
+    "history": "H50",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM02__1",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "b0455b5752fa08d682781cda9578f11d7b1cd94271b1c2ae17bd0f33b0c7da4c"
+  },
+  {
+    "file": "H50_node_2.npz",
+    "history": "H50",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM02__1",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "b47964e06531e9468acb0a53bb6ef629678ce21eb2038c387d2c11cadda930dd"
+  },
+  {
+    "file": "H50_node_3.npz",
+    "history": "H50",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM02__1",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e975181ddcfa2a1098c77a5d2fd561ac59ab5d648a594bb23f669d6f31d97641"
+  },
+  {
+    "file": "H51_node_1.npz",
+    "history": "H51",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM02__2",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "1ec96bc96c2f2a6b4c9e08f62ef7cfc94627efd9f24f800d822615145cfb0cb1"
+  },
+  {
+    "file": "H51_node_2.npz",
+    "history": "H51",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM02__2",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "7177fd4485b9d84d453b3ecc586e56005af0bab3f5dee62eef7bb3f1fd78b7e0"
+  },
+  {
+    "file": "H51_node_3.npz",
+    "history": "H51",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM02__2",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "9c84d634a7e170ee62479b0f390521090187a00b40a90b227325f50c2f396a62"
+  },
+  {
+    "file": "H52_node_1.npz",
+    "history": "H52",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM02__3",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "64c544a9ff15e0c6e32daf8693f8fbb15ee5504bc085678c0c8ddb45e413ae7b"
+  },
+  {
+    "file": "H52_node_2.npz",
+    "history": "H52",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM02__3",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "03e20a5dc006dc1260df1c1268129cc6b04b12f1a8909ec56a35be2176608cef"
+  },
+  {
+    "file": "H52_node_3.npz",
+    "history": "H52",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM02__3",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "b24044d02eb52f9acb58f678cc3a7a16e341b5e571b4cbc24ab3d69c36483f05"
+  },
+  {
+    "file": "H53_node_1.npz",
+    "history": "H53",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM02__4",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "43c9549dae023b4cd044241b728c2bc25f1ec5726759d5454eccc2077e50423c"
+  },
+  {
+    "file": "H53_node_2.npz",
+    "history": "H53",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM02__4",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "5e767dd72a5b303ac13cb63b4c16741c15bf09d74f1ac4ef87e487173075ff6e"
+  },
+  {
+    "file": "H53_node_3.npz",
+    "history": "H53",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM02__4",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "4c036c271446ac8d8e7ff9d2dced802f631fdd6a9709179940070909728b46e5"
+  },
+  {
+    "file": "H54_node_1.npz",
+    "history": "H54",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM02__5",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "bb9ffa4533db99266a3fd00593529b5a0aed8c6f7137f641d7c45d0449d8c48b"
+  },
+  {
+    "file": "H54_node_2.npz",
+    "history": "H54",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM02__5",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "4740b3bb1efd8ce4cd2728cec93705f258cb7bfe7e1cb138ccc51e462430b0fb"
+  },
+  {
+    "file": "H54_node_3.npz",
+    "history": "H54",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM02__5",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "31ffcbfa6aaccffaf4154690466ad44ebc35afb4c931b4eda5e3530ba9479f4f"
+  },
+  {
+    "file": "H55_node_1.npz",
+    "history": "H55",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM02__6",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "1374a4c4b635fcf820361a025a733c97af4a8eb4123c45d64509315c2f4a3992"
+  },
+  {
+    "file": "H55_node_2.npz",
+    "history": "H55",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM02__6",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "fa4b2cee73253f33aedd2d1293b986a89d0eddda19cdf9ca8f770503cbf1f07b"
+  },
+  {
+    "file": "H55_node_3.npz",
+    "history": "H55",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM02__6",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "06dbd4d52091e987ccd51fe2828426214522811f5ddb3efb4ac4fbef7719acf2"
+  },
+  {
+    "file": "H56_node_1.npz",
+    "history": "H56",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM02__7",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "f9a204e0c19809884c78403d7588f4dd20298f12954264b77209cc28bf506bd4"
+  },
+  {
+    "file": "H56_node_2.npz",
+    "history": "H56",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM02__7",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "c3a1a79a644322d4b1d86a1cf126776e5377be0d9c7017784315e7b8a3685577"
+  },
+  {
+    "file": "H56_node_3.npz",
+    "history": "H56",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM02__7",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "f5db185d36ad77f3288a21d837752e3d3943258e94a9e18616db5c776623ed6a"
+  },
+  {
+    "file": "H57_node_1.npz",
+    "history": "H57",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM05__0",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "9ff40599321dbddf50247461c8f91c2fa646787defdd3579263c84e67c29df3d"
+  },
+  {
+    "file": "H57_node_2.npz",
+    "history": "H57",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM05__0",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "00f7543f097fd020c3b7e90afe40d9533df30ff9349fa9da09bd80c9e561ac5a"
+  },
+  {
+    "file": "H57_node_3.npz",
+    "history": "H57",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM05__0",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "ddb213ec69ac2cab72ccfeb6f92b4e0f41aa902622b03bd010054ce86e44a66f"
+  },
+  {
+    "file": "H58_node_1.npz",
+    "history": "H58",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM05__1",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "b3c6868492dabfa28870a2726a50a89ec9a967b53c406dbb3f1e1d8783a91863"
+  },
+  {
+    "file": "H58_node_2.npz",
+    "history": "H58",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM05__1",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "6b7cba3e10af6b46f249eeede2b3fb409be9dbda40ef104757ad8bc480cb9fa1"
+  },
+  {
+    "file": "H58_node_3.npz",
+    "history": "H58",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM05__1",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "6546078b7cc6746441dda5de34d4ec413d310ac395adea818c712a79ebc738d0"
+  },
+  {
+    "file": "H59_node_1.npz",
+    "history": "H59",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM05__2",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "5c311ca7b4391a0f01d3a42075b16d7a78700018bc76c1eb458743660483293e"
+  },
+  {
+    "file": "H59_node_2.npz",
+    "history": "H59",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM05__2",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "1569d1a0c49f9e54148b5129601c4503f336a0cc0f5522ddb450533381e44fff"
+  },
+  {
+    "file": "H59_node_3.npz",
+    "history": "H59",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM05__2",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "fcef2c0c3df4d9aab288339e1247e27c0f89e60cc721d97b8f9900428ad04c33"
+  },
+  {
+    "file": "H60_node_1.npz",
+    "history": "H60",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM05__3",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "0ae11d83f35701e8a4247bbdf007441124211c9ab07459b58c29410af3f5e351"
+  },
+  {
+    "file": "H60_node_2.npz",
+    "history": "H60",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM05__3",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "cac479d2a65bba9a7ebecff3e9db4bb60f575f27d5ad05cdec233988140342cc"
+  },
+  {
+    "file": "H60_node_3.npz",
+    "history": "H60",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM05__3",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "b3d5e98799656a230ff18af7381cd0041c9b0ccb0e74373d8707a32816013d50"
+  },
+  {
+    "file": "H61_node_1.npz",
+    "history": "H61",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM05__4",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "de1b89eda64005ebdffde42ede01639e123f1c1065edff2101e493736b9f5a4a"
+  },
+  {
+    "file": "H61_node_2.npz",
+    "history": "H61",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM05__4",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "d257e0303c9a8750198b492937770b11f8f7f5616039462bd310a9329d471508"
+  },
+  {
+    "file": "H61_node_3.npz",
+    "history": "H61",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM05__4",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "b5eae48b8e42ed0ec730b141c5211e38b1e7db65a664dfa2723c743e48650fbf"
+  },
+  {
+    "file": "H62_node_1.npz",
+    "history": "H62",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM05__5",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "1afbb6600324a4f0793f4a89e3c826e9dde5f5fc96eeedbcf8c2131755ac8aa5"
+  },
+  {
+    "file": "H62_node_2.npz",
+    "history": "H62",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM05__5",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "64676fcfbb5456373d7a45ef0c13723e27e78c68f6a24be177501081b0662978"
+  },
+  {
+    "file": "H62_node_3.npz",
+    "history": "H62",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM05__5",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "555527aa0950445cfc0888841d45946c6ec5a0f5f62e20eecd49a65f6b3f8cdd"
+  },
+  {
+    "file": "H63_node_1.npz",
+    "history": "H63",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM05__6",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "cceb7eb62247e77c5736ef4928fab78d2c1a938f999d281ba649c2571a752266"
+  },
+  {
+    "file": "H63_node_2.npz",
+    "history": "H63",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM05__6",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "f670d9c0274e84035c312d1fd199955165cec3914f3b498d27164aa9c2888509"
+  },
+  {
+    "file": "H63_node_3.npz",
+    "history": "H63",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM05__6",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "579ba2f64edfbb6b00b87637582c7ce729da0eb72145e39107c106c6c423864b"
+  },
+  {
+    "file": "H64_node_1.npz",
+    "history": "H64",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM05__7",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "f853d2f8bc7471694c2d53e5997ae49c055a36340e3641ea9ed9093ccdedde37"
+  },
+  {
+    "file": "H64_node_2.npz",
+    "history": "H64",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM05__7",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "09a1ae7804724a1e302e7b552bde27804a392549a6dd06818db66950a2e8c3bb"
+  },
+  {
+    "file": "H64_node_3.npz",
+    "history": "H64",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM05__7",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "3be31ace353e7359a9a429d945c69db131ade4035b8fa60b8126b0fdc407d14a"
+  },
+  {
+    "file": "H65_node_1.npz",
+    "history": "H65",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM08__0",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "bf42f6f05d04ab7c0817f7d8e02a7f6724fafc953e55f5412d79b1ed3caa6f3a"
+  },
+  {
+    "file": "H65_node_2.npz",
+    "history": "H65",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM08__0",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e5565cd1316b4882b24cdcedfa77f040558e050c036a7a889969800daf982632"
+  },
+  {
+    "file": "H65_node_3.npz",
+    "history": "H65",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM08__0",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "cc123b90b51b487eb2d79ba776225f452e23c5801675ca7697d076e7f0c5218e"
+  },
+  {
+    "file": "H66_node_1.npz",
+    "history": "H66",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM08__1",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "d64dc8230c49612b92b6f8f04cd273916439bc7159ba2209f653533500a13ff3"
+  },
+  {
+    "file": "H66_node_2.npz",
+    "history": "H66",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM08__1",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "a715167b453f50bd94baa0d8aa75e580d48fe6b6831a235cd3d6be41110ab03a"
+  },
+  {
+    "file": "H66_node_3.npz",
+    "history": "H66",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM08__1",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8e955a284e3e5f67e07ddd9255ce2c5f66a0cad97cd093b8c267d7b04d9ab139"
+  },
+  {
+    "file": "H67_node_1.npz",
+    "history": "H67",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM08__2",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "9b05d8d6cd19618d27afabc0ed9a8b0891ca583e8bb47b0c9414d148793e7ad8"
+  },
+  {
+    "file": "H67_node_2.npz",
+    "history": "H67",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM08__2",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "d0d7ab5529125a0cb8348d5858f805a59a57aa336f4d33e6a9bdb13041028735"
+  },
+  {
+    "file": "H67_node_3.npz",
+    "history": "H67",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM08__2",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "48aa08af59c07504f578b1ad31e05bb8cd56d0dd5d97d038864da71ac7739ef8"
+  },
+  {
+    "file": "H68_node_1.npz",
+    "history": "H68",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM08__3",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "7a40a8ec6f13be907c994424c20c76f7db3499a0c98c99c1d3ad1a803c1dd2a2"
+  },
+  {
+    "file": "H68_node_2.npz",
+    "history": "H68",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM08__3",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "71b5f4d447e1cbcf2bf22da0142eab2654bcb4c3af4537600e66e978b88996c6"
+  },
+  {
+    "file": "H68_node_3.npz",
+    "history": "H68",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM08__3",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "f420c46f9668d06300cd53b4f206a4f90950064e872bb8b0ed0ec8decf92be47"
+  },
+  {
+    "file": "H69_node_1.npz",
+    "history": "H69",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM08__4",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "f0eaa275bd6a8e4cedd01dc41b2124d80242e921a26e57c85c7b9d6602981419"
+  },
+  {
+    "file": "H69_node_2.npz",
+    "history": "H69",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM08__4",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "a5deb1fb57a4812b0cf73eecb1d47a98865452d5f82121340f6803bffdc10221"
+  },
+  {
+    "file": "H69_node_3.npz",
+    "history": "H69",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM08__4",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "2269d777fc589284f119313cc64964d1bc0644e652a2d23c46b63af5f3513aed"
+  },
+  {
+    "file": "H70_node_1.npz",
+    "history": "H70",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM08__5",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "98dfefb7b08da5d23c3171dab724edde36a8d3387531953d6f8d5bd9b1235f7d"
+  },
+  {
+    "file": "H70_node_2.npz",
+    "history": "H70",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM08__5",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "3d74b18e852d9a666d946c02ba99f154b27884ea14291af6f3fd0d05e4ffb36f"
+  },
+  {
+    "file": "H70_node_3.npz",
+    "history": "H70",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM08__5",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "49bb185b54e624f3e9caab5577a8942dfd0c843be1f5414ecf0f01a7c60b2ab6"
+  },
+  {
+    "file": "H71_node_1.npz",
+    "history": "H71",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM08__6",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "9ef7dfa03eaf34ec42abcf25e93e5dd512af461bfa6d8f32bc95c3fa2e3f8128"
+  },
+  {
+    "file": "H71_node_2.npz",
+    "history": "H71",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM08__6",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "0e53affda0f8b77733cbcb003a071524cd30d9967be1a812b2622c79ca0ddeaa"
+  },
+  {
+    "file": "H71_node_3.npz",
+    "history": "H71",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM08__6",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "05ee01807845819fde6da632f28e669e1a37716158ba76aeccf73905d608efc9"
+  },
+  {
+    "file": "H72_node_1.npz",
+    "history": "H72",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM08__7",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "9d561be91b13a120a523dedb9daea479d74cebbfca84f65cdb1e7c972c6de27e"
+  },
+  {
+    "file": "H72_node_2.npz",
+    "history": "H72",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM08__7",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "f674ae8a06efa5b5d2817228de76ef30a196854a74c8c1da1db03750bb42b37b"
+  },
+  {
+    "file": "H72_node_3.npz",
+    "history": "H72",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM08__7",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "209a40b935b803d2d352aee702863bde03e6f63426d9523bc7f4f162ad93c14a"
+  },
+  {
+    "file": "H73_node_1.npz",
+    "history": "H73",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM40__0",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "39fd46cf5af8e79932590b27cbdb5a74fcee853a0752d783e2d2cb6b189e882d"
+  },
+  {
+    "file": "H73_node_2.npz",
+    "history": "H73",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM40__0",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "2461133049dd0f41cd88f18b2bf3cbce2b57500100a1e89c6a223eed547e8c54"
+  },
+  {
+    "file": "H73_node_3.npz",
+    "history": "H73",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM40__0",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8979ad61a4b8b98c5d208e940412e711713698bce6a26f8813a306b610e2081c"
+  },
+  {
+    "file": "H74_node_1.npz",
+    "history": "H74",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM40__1",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "8ac5046e1659a9b7f3074ffcae8a97bb20e8be9caa6c12d6d08feaa82f3b2de4"
+  },
+  {
+    "file": "H74_node_2.npz",
+    "history": "H74",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM40__1",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e9dd323e9918b1acff283dac8e6de91f7fc03509035d4ddbeca583ffd1ac5759"
+  },
+  {
+    "file": "H74_node_3.npz",
+    "history": "H74",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM40__1",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "43aa30a20270e238e25acf48300cec066197adbdccd40e85c3b854caa0e64280"
+  },
+  {
+    "file": "H75_node_1.npz",
+    "history": "H75",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM40__2",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "5ba2cfd2533b03f45897c2959e63d5cbc7fcc9818974dcbe91408078cec77fc0"
+  },
+  {
+    "file": "H75_node_2.npz",
+    "history": "H75",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM40__2",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "c0df27ca6778042473b0b896d7b81c5aa49ed8d7b89845aaf693e795bc9ea616"
+  },
+  {
+    "file": "H75_node_3.npz",
+    "history": "H75",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM40__2",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "66428e2a1985b0e89581bcbb321a7354267d19d82da77adec6433816e0bb62be"
+  },
+  {
+    "file": "H76_node_1.npz",
+    "history": "H76",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM40__3",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "fe55c9ac75bf550efd890d4772bb5ff695a55da606caab45aeda3710eda64db5"
+  },
+  {
+    "file": "H76_node_2.npz",
+    "history": "H76",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM40__3",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "901127c30cfc25bccc027ed2001ba9516b6cb3cd551499b3462a086259c68cfa"
+  },
+  {
+    "file": "H76_node_3.npz",
+    "history": "H76",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM40__3",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "fc12d5e49c8aacbcc7f615dc4919513ac6d2b9310886f9c0ff6f6a267a05f83b"
+  },
+  {
+    "file": "H77_node_1.npz",
+    "history": "H77",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM40__4",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "e473d812149ad4abbc1e10eb76940318be1e605c54f48be6584912d6c5e7b36c"
+  },
+  {
+    "file": "H77_node_2.npz",
+    "history": "H77",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM40__4",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "3ae6cfb730a83522f0b489ffcd396f006f5f4be4398a6392be1d4690465ae29a"
+  },
+  {
+    "file": "H77_node_3.npz",
+    "history": "H77",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM40__4",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "ccf80ecc15480163140307d2173091d49b40936f6a3cbd3a43f567da765c8965"
+  },
+  {
+    "file": "H78_node_1.npz",
+    "history": "H78",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM40__5",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "87394c464dbc4c1bb26e95768849b90a40e7ca1221de5b14539db38ccf915bce"
+  },
+  {
+    "file": "H78_node_2.npz",
+    "history": "H78",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM40__5",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "607501f8b59b808dbe67beb77d21a5684063ec7d83dc38ec6361a9b00e1d9273"
+  },
+  {
+    "file": "H78_node_3.npz",
+    "history": "H78",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM40__5",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "3d61683da195291fd5fe1782705cf8040eedcfe63baecc0db4f827768f9d4a57"
+  },
+  {
+    "file": "H79_node_1.npz",
+    "history": "H79",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM40__6",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "93e6a6425bf9400cc78031dc298e58ada5e9471006cbd28362a7dd29ec5db923"
+  },
+  {
+    "file": "H79_node_2.npz",
+    "history": "H79",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM40__6",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "6bbf93ec41f52f5bf8aa8e03a996e45c25739aca754a5523a9340914019f9aaa"
+  },
+  {
+    "file": "H79_node_3.npz",
+    "history": "H79",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM40__6",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "15da23ba9e9959b9a2deb53c0b03037595527236f17d859dc648732864aae38a"
+  },
+  {
+    "file": "H80_node_1.npz",
+    "history": "H80",
+    "node": 1,
+    "original_history_id": "QB_MSE_NOM40__7",
+    "r": "0",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "0c2d50dbad7a8c08fbea39c2598914912beeea2436d20c4a05b19506e13c8a09"
+  },
+  {
+    "file": "H80_node_2.npz",
+    "history": "H80",
+    "node": 2,
+    "original_history_id": "QB_MSE_NOM40__7",
+    "r": "1/50",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "065035a693343a35c16b858a62fdbc7893cd8ff39952298ae76579565c472251"
+  },
+  {
+    "file": "H80_node_3.npz",
+    "history": "H80",
+    "node": 3,
+    "original_history_id": "QB_MSE_NOM40__7",
+    "r": "1/20",
+    "reconstruction": "post hoc deterministic from saved H; not a preregistered matrix file",
+    "sha256": "071919f1f14a25ee432ed04fbe0237eeb3d6ba801551d82a690a2e333e4f8280"
+  }
+]

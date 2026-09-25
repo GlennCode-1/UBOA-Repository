@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UBOA Route-B Implementation Freeze F2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["study_id", "status", "scientific_protocol_manifest_id", "scientific_protocol_manifest_sha256", "executable_source_sha256", "schema_sha256", "dry_run_artifact_sha256", "environment", "future_execution_command", "stochastic_execution_count", "rng_call_count_during_dry_run"],
+  "properties": {
+    "study_id": {"const": "UBOA_ROUTE_B_SYNTH_CONFIRMATORY_V1"},
+    "status": {"const": "READY_FOR_INDEPENDENT_AUDIT"},
+    "scientific_protocol_manifest_id": {"const": "6caae5a8d5cebebdc94ac31c1afeb1202b6627ff0949aa2fb3c002e7bca29845"},
+    "scientific_protocol_manifest_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "executable_source_sha256": {"type": "object", "minProperties": 10, "additionalProperties": {"type": "string", "pattern": "^[0-9a-f]{64}$"}},
+    "schema_sha256": {"type": "object", "minProperties": 4, "additionalProperties": {"type": "string", "pattern": "^[0-9a-f]{64}$"}},
+    "dry_run_artifact_sha256": {"type": "object", "additionalProperties": {"type": "string", "pattern": "^[0-9a-f]{64}$"}},
+    "environment": {"type": "object", "required": ["python", "numpy", "scipy", "os", "architecture"]},
+    "future_execution_command": {"type": "string"},
+    "stochastic_execution_count": {"const": 0},
+    "rng_call_count_during_dry_run": {"const": 0}
+    ,"synthetic_paths_generated_during_dry_run": {"const": 0}
+    ,"real_dataset_reads": {"const": 0}
+    ,"manuscript_edits": {"const": 0}
+    ,"freeze_created_utc": {"type": "string"}
+  }
+}

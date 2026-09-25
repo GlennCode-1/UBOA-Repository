@@ -1,0 +1,15 @@
+{
+  "authorized_future_entry_calls": [
+    "run_confirmatory.py:150:Generator",
+    "run_confirmatory.py:150:PCG64DXSM",
+    "run_confirmatory.py:152:choice",
+    "run_confirmatory.py:156:standard_normal",
+    "run_confirmatory.py:190:Generator",
+    "run_confirmatory.py:190:PCG64DXSM",
+    "run_confirmatory.py:193:choice",
+    "run_confirmatory.py:199:standard_normal"
+  ],
+  "dry_run_rng_call_violations": [],
+  "rng_call_count_during_dry_run": 0,
+  "status": "PASS"
+}

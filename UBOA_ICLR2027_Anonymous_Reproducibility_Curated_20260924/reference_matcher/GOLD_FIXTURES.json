@@ -1,0 +1,201 @@
+{
+  "schema_version": "routea.matcher.gold.v1",
+  "frozen_before_implementation": true,
+  "purpose": "Deterministic rule-conformance fixtures, not an empirical audit corpus",
+  "defaults": {
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "probability_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": ["m1", "m2"],
+        "horizons": [1, 2],
+        "weights": [0.5, 0.5],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [0.0, 0.02, 0.05]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "theorem",
+      "conclusion_type": "probability_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": ["m1", "m2"],
+        "horizons": [1, 2],
+        "weights": [0.5, 0.5],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [0.0, 0.02, 0.05]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": ["conditional_local_validity"],
+      "verified_assumptions": ["conditional_local_validity"],
+      "metadata": {}
+    }
+  },
+  "cases": [
+    {
+      "id": "theorem_exact_match",
+      "request_patch": {},
+      "evidence_patch": {},
+      "expected": {"status": "ESTABLISHED", "rule": "M4_THEOREM_INSTANTIATION", "reasons": []}
+    },
+    {
+      "id": "theorem_unverified_premise",
+      "request_patch": {},
+      "evidence_patch": {"verified_assumptions": []},
+      "expected": {"status": "UNSUPPORTED_REQUEST", "rule": "M7_MISMATCH", "reasons": ["UNVERIFIED_ASSUMPTION:conditional_local_validity"]}
+    },
+    {
+      "id": "asymptotic_exact_match",
+      "request_patch": {"validity": {"support_mode": "asymptotic", "sample_regime": "n_to_infinity_uniform_over_class"}},
+      "evidence_patch": {"kind": "asymptotic_theorem", "validity": {"support_mode": "asymptotic", "sample_regime": "n_to_infinity_uniform_over_class"}},
+      "expected": {"status": "ESTABLISHED", "rule": "M4_THEOREM_INSTANTIATION", "reasons": []}
+    },
+    {
+      "id": "asymptotic_to_finite_exact_forbidden",
+      "request_patch": {},
+      "evidence_patch": {"kind": "asymptotic_theorem", "validity": {"support_mode": "asymptotic", "sample_regime": "n_to_infinity_uniform_over_class"}},
+      "expected": {"status": "UNSUPPORTED_REQUEST", "rule": "M7_MISMATCH", "reasons": ["ASYMPTOTIC_TO_FINITE_EXACTNESS_FORBIDDEN"]}
+    },
+    {
+      "id": "marginal_to_conditional_forbidden",
+      "request_patch": {},
+      "evidence_patch": {"validity": {"conditioning": "trivial"}},
+      "expected": {"status": "UNSUPPORTED_REQUEST", "rule": "M7_MISMATCH", "reasons": ["CONDITIONING_STRENGTHENING_FORBIDDEN"]}
+    },
+    {
+      "id": "fixed_to_selected_forbidden",
+      "request_patch": {},
+      "evidence_patch": {"validity": {"selection_mechanism": "fixed_rule"}},
+      "expected": {"status": "UNSUPPORTED_REQUEST", "rule": "M7_MISMATCH", "reasons": ["FIXED_TO_SELECTED_UPGRADE_FORBIDDEN"]}
+    },
+    {
+      "id": "single_to_cohort_forbidden",
+      "request_patch": {"validity": {"coverage_unit": "six_request_cohort"}},
+      "evidence_patch": {},
+      "expected": {"status": "UNSUPPORTED_REQUEST", "rule": "M7_MISMATCH", "reasons": ["SINGLE_TO_SIMULTANEOUS_UPGRADE_FORBIDDEN"]}
+    },
+    {
+      "id": "law_swap_forbidden",
+      "request_patch": {"scientific": {"evaluation_law": "different_joint_law_Q"}},
+      "evidence_patch": {},
+      "expected": {"status": "UNSUPPORTED_REQUEST", "rule": "M7_MISMATCH", "reasons": ["EVALUATION_LAW_MISMATCH"]}
+    },
+    {
+      "id": "error_event_swap_forbidden",
+      "request_patch": {"validity": {"error_event": "false_promotion_in_any_cohort_member"}},
+      "evidence_patch": {},
+      "expected": {"status": "UNSUPPORTED_REQUEST", "rule": "M7_MISMATCH", "reasons": ["ERROR_EVENT_MISMATCH"]}
+    },
+    {
+      "id": "member_scope_change_forbidden",
+      "request_patch": {"scientific": {"members": ["m1"]}},
+      "evidence_patch": {},
+      "expected": {"status": "UNSUPPORTED_REQUEST", "rule": "M7_MISMATCH", "reasons": ["SCIENTIFIC_TARGET_MISMATCH:members"]}
+    },
+    {
+      "id": "structural_identity_match",
+      "request_patch": {"conclusion_type": "structural_identity"},
+      "evidence_patch": {"kind": "structural_identity", "conclusion_type": "structural_identity", "premises": [], "verified_assumptions": [], "metadata": {"pointwise_identity": true, "denominator_status": "unknown"}},
+      "expected": {"status": "ESTABLISHED", "rule": "M1_POINTWISE_IDENTITY", "reasons": []}
+    },
+    {
+      "id": "structural_ratio_positive_denominator",
+      "request_patch": {"conclusion_type": "relative_ratio"},
+      "evidence_patch": {"kind": "structural_identity", "conclusion_type": "structural_identity", "premises": [], "verified_assumptions": [], "metadata": {"pointwise_identity": true, "denominator_status": "finite_positive"}},
+      "expected": {"status": "ESTABLISHED", "rule": "M1_POINTWISE_IDENTITY", "reasons": []}
+    },
+    {
+      "id": "structural_ratio_zero_denominator",
+      "request_patch": {"conclusion_type": "relative_ratio"},
+      "evidence_patch": {"kind": "structural_identity", "conclusion_type": "structural_identity", "premises": [], "verified_assumptions": [], "metadata": {"pointwise_identity": true, "denominator_status": "zero"}},
+      "expected": {"status": "UNSUPPORTED_REQUEST", "rule": "M7_MISMATCH", "reasons": ["DENOMINATOR_NONPOSITIVE"]}
+    },
+    {
+      "id": "observed_decision_copy",
+      "request_patch": {"conclusion_type": "observed_decision", "validity": {"support_mode": "observed_record"}},
+      "evidence_patch": {"kind": "observed_decision", "conclusion_type": "observed_decision", "validity": {"support_mode": "observed_record"}, "premises": [], "verified_assumptions": [], "metadata": {"reached_nodes_only": true, "method_retained": true, "boundary_retained": true}},
+      "expected": {"status": "ESTABLISHED", "rule": "M2_OBSERVED_COPY", "reasons": []}
+    },
+    {
+      "id": "observed_decision_to_guarantee_forbidden",
+      "request_patch": {},
+      "evidence_patch": {"kind": "observed_decision", "conclusion_type": "observed_decision", "validity": {"support_mode": "observed_record"}, "premises": [], "verified_assumptions": [], "metadata": {"reached_nodes_only": true, "method_retained": true, "boundary_retained": true}},
+      "expected": {"status": "UNSUPPORTED_REQUEST", "rule": "M7_MISMATCH", "reasons": ["OBSERVED_TO_GUARANTEE_FORBIDDEN"]}
+    },
+    {
+      "id": "finite_empirical_exact_design",
+      "request_patch": {"conclusion_type": "empirical_rate", "validity": {"support_mode": "finite_design_empirical"}},
+      "evidence_patch": {"kind": "finite_design_empirical", "conclusion_type": "empirical_rate", "validity": {"support_mode": "finite_design_empirical"}, "premises": [], "verified_assumptions": [], "metadata": {"design_mixture": "frozen_144_cells", "denominator": 432000, "sample_range": "all_saved_records", "selection_record": "frozen_selection"}},
+      "request_metadata": {"design_mixture": "frozen_144_cells", "denominator": 432000, "sample_range": "all_saved_records", "selection_record": "frozen_selection"},
+      "expected": {"status": "ESTABLISHED", "rule": "M3_FINITE_EMPIRICAL", "reasons": []}
+    },
+    {
+      "id": "finite_empirical_denominator_change",
+      "request_patch": {"conclusion_type": "empirical_rate", "validity": {"support_mode": "finite_design_empirical"}},
+      "evidence_patch": {"kind": "finite_design_empirical", "conclusion_type": "empirical_rate", "validity": {"support_mode": "finite_design_empirical"}, "premises": [], "verified_assumptions": [], "metadata": {"design_mixture": "frozen_144_cells", "denominator": 432000, "sample_range": "all_saved_records", "selection_record": "frozen_selection"}},
+      "request_metadata": {"design_mixture": "frozen_144_cells", "denominator": 320225, "sample_range": "all_saved_records", "selection_record": "frozen_selection"},
+      "expected": {"status": "UNSUPPORTED_REQUEST", "rule": "M7_MISMATCH", "reasons": ["EMPIRICAL_DESIGN_MISMATCH:denominator"]}
+    },
+    {
+      "id": "empirical_to_theorem_forbidden",
+      "request_patch": {},
+      "evidence_patch": {"kind": "finite_design_empirical", "conclusion_type": "empirical_rate", "validity": {"support_mode": "finite_design_empirical"}, "premises": [], "verified_assumptions": [], "metadata": {"design_mixture": "frozen_144_cells", "denominator": 432000, "sample_range": "all_saved_records", "selection_record": "frozen_selection"}},
+      "expected": {"status": "UNSUPPORTED_REQUEST", "rule": "M7_MISMATCH", "reasons": ["EMPIRICAL_TO_THEOREM_FORBIDDEN"]}
+    },
+    {
+      "id": "conditional_to_coarser_legal",
+      "request_patch": {"validity": {"conditioning": "selected_label"}},
+      "evidence_patch": {"kind": "conditional_bound", "validity": {"conditioning": "full_history"}, "metadata": {"declared_coarsenings": ["selected_label", "trivial"], "same_joint_law": true, "same_error_event": true, "integrable_indicator": true, "bound_constant_or_coarser_measurable": true}},
+      "expected": {"status": "ESTABLISHED", "rule": "M5_CONDITIONING_COARSEN", "reasons": []}
+    },
+    {
+      "id": "conditional_to_finer_forbidden",
+      "request_patch": {"validity": {"conditioning": "full_history"}},
+      "evidence_patch": {"kind": "conditional_bound", "validity": {"conditioning": "selected_label"}, "metadata": {"declared_coarsenings": ["trivial"], "same_joint_law": true, "same_error_event": true, "integrable_indicator": true, "bound_constant_or_coarser_measurable": true}},
+      "expected": {"status": "UNSUPPORTED_REQUEST", "rule": "M7_MISMATCH", "reasons": ["CONDITIONING_STRENGTHENING_FORBIDDEN"]}
+    },
+    {
+      "id": "conditional_coarsen_event_changed",
+      "request_patch": {"validity": {"conditioning": "selected_label", "error_event": "different_error_event"}},
+      "evidence_patch": {"kind": "conditional_bound", "validity": {"conditioning": "full_history"}, "metadata": {"declared_coarsenings": ["selected_label"], "same_joint_law": true, "same_error_event": false, "integrable_indicator": true, "bound_constant_or_coarser_measurable": true}},
+      "expected": {"status": "UNSUPPORTED_REQUEST", "rule": "M7_MISMATCH", "reasons": ["ERROR_EVENT_MISMATCH"]}
+    },
+    {
+      "id": "fixed_sequence_matching_local_premises",
+      "request_patch": {"conclusion_type": "fixed_sequence_error_bound"},
+      "evidence_patch": {"kind": "local_validity_family", "conclusion_type": "local_node_bounds", "premises": ["truth_events_measurable", "local_bounds_hold"], "verified_assumptions": ["truth_events_measurable", "local_bounds_hold"], "metadata": {"potential_tests_defined": true, "ordered_family": true, "stop_at_first_valid_nonrejection": true, "invalid_policy": "whole_request_unresolved", "no_true_null_convention": true}},
+      "expected": {"status": "ESTABLISHED", "rule": "M6_FIXED_SEQUENCE", "reasons": []}
+    },
+    {
+      "id": "fixed_sequence_missing_potential_tests",
+      "request_patch": {"conclusion_type": "fixed_sequence_error_bound"},
+      "evidence_patch": {"kind": "local_validity_family", "conclusion_type": "local_node_bounds", "premises": ["truth_events_measurable", "local_bounds_hold"], "verified_assumptions": ["truth_events_measurable", "local_bounds_hold"], "metadata": {"potential_tests_defined": false, "ordered_family": true, "stop_at_first_valid_nonrejection": true, "invalid_policy": "whole_request_unresolved", "no_true_null_convention": true}},
+      "expected": {"status": "UNSUPPORTED_REQUEST", "rule": "M7_MISMATCH", "reasons": ["FIXED_SEQUENCE_SIDE_CONDITION_FAILED:potential_tests_defined"]}
+    }
+  ]
+}

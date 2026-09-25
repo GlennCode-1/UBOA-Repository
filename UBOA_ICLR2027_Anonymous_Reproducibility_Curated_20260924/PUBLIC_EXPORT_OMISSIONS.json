@@ -1,0 +1,43 @@
+{
+  "schema": "curated-public-export-omissions-v1",
+  "source_archive_sha256": "c858869ce135b04f8b575abd81869d4e4db1dd86a142a46d6e28d6dd56b7398a",
+  "source_archive_size_bytes": 15988666,
+  "omission_count": 5,
+  "omissions": [
+    {
+      "path": "frozen_study/06_PROMPTS/CLAUDE_POSTRUN_AUDIT.md",
+      "size_bytes": 704,
+      "sha256": "479088e7dfe0ef4002cf435b78c720e71657a440d32f0eab2610fad2c3c0cf93",
+      "category": "internal_execution_prompt",
+      "reason": "Not necessary for reviewer deterministic reproduction; retained only in author-side source archive."
+    },
+    {
+      "path": "frozen_study/06_PROMPTS/CLAUDE_PREEXEC_AUDIT.md",
+      "size_bytes": 1379,
+      "sha256": "57c1038355336b6572876e3f20dc52206cd6ee6be316b063e2906e7c41aaa576",
+      "category": "internal_execution_prompt",
+      "reason": "Not necessary for reviewer deterministic reproduction; retained only in author-side source archive."
+    },
+    {
+      "path": "frozen_study/06_PROMPTS/CODEX_EXECUTE_AFTER_PASS.md",
+      "size_bytes": 773,
+      "sha256": "b2f8fdf892685aa75bf5ff86207f539504d808d23f1247b7760659801f44e5d7",
+      "category": "internal_execution_prompt",
+      "reason": "Not necessary for reviewer deterministic reproduction; retained only in author-side source archive."
+    },
+    {
+      "path": "frozen_study/06_PROMPTS/CODEX_IMPLEMENT_DRYRUN.md",
+      "size_bytes": 1052,
+      "sha256": "b7e40addc15795dcd8838fa3c35afabe06aed0981b79030bb9cb6471f3b948e5",
+      "category": "internal_execution_prompt",
+      "reason": "Not necessary for reviewer deterministic reproduction; retained only in author-side source archive."
+    },
+    {
+      "path": "frozen_study/07_REFERENCE/latest_routeA.pdf",
+      "size_bytes": 392511,
+      "sha256": "d3c3c39745c6dd59018082473b881b3bda319c65febec69c6dceab59c99c7c10",
+      "category": "old_reference_snapshot",
+      "reason": "Older anonymous reference snapshot is not required by the current reviewer reproduction commands and is not a substitute for the authoritative manuscript PDF."
+    }
+  ]
+}

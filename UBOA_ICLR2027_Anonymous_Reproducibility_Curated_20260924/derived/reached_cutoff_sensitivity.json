@@ -1,0 +1,138 @@
+{
+  "between_cutoffs_count": 0,
+  "decision_changes_if_only_cutoff_replaced": 0,
+  "historical_cutoff": 5.298829753159216,
+  "ideal_continuous_q95": 5.322679900530264,
+  "min_stat": -5.7496297088891835,
+  "n_reached_nodes": 16,
+  "rows": [
+    {
+      "between_cutoffs": false,
+      "historical_reject": true,
+      "ideal_cutoff_reject": true,
+      "index": 0,
+      "source": "historical_existing_evidence/PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI235_HOUSEHOLD_POWER/reached_node_records.json",
+      "stat": 21.087443126420165
+    },
+    {
+      "between_cutoffs": false,
+      "historical_reject": true,
+      "ideal_cutoff_reject": true,
+      "index": 1,
+      "source": "historical_existing_evidence/PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI235_HOUSEHOLD_POWER/reached_node_records.json",
+      "stat": 21.148388194767115
+    },
+    {
+      "between_cutoffs": false,
+      "historical_reject": true,
+      "ideal_cutoff_reject": true,
+      "index": 2,
+      "source": "historical_existing_evidence/PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI235_HOUSEHOLD_POWER/reached_node_records.json",
+      "stat": 21.24511781867034
+    },
+    {
+      "between_cutoffs": false,
+      "historical_reject": true,
+      "ideal_cutoff_reject": true,
+      "index": 0,
+      "source": "historical_existing_evidence/PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI360_AIR_QUALITY_CO/reached_node_records.json",
+      "stat": 16.201165959513187
+    },
+    {
+      "between_cutoffs": false,
+      "historical_reject": true,
+      "ideal_cutoff_reject": true,
+      "index": 1,
+      "source": "historical_existing_evidence/PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI360_AIR_QUALITY_CO/reached_node_records.json",
+      "stat": 16.261755964395213
+    },
+    {
+      "between_cutoffs": false,
+      "historical_reject": true,
+      "ideal_cutoff_reject": true,
+      "index": 2,
+      "source": "historical_existing_evidence/PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI360_AIR_QUALITY_CO/reached_node_records.json",
+      "stat": 16.348378254035033
+    },
+    {
+      "between_cutoffs": false,
+      "historical_reject": true,
+      "ideal_cutoff_reject": true,
+      "index": 0,
+      "source": "historical_existing_evidence/PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI374_APPLIANCES/reached_node_records.json",
+      "stat": 5.903273259543595
+    },
+    {
+      "between_cutoffs": false,
+      "historical_reject": true,
+      "ideal_cutoff_reject": true,
+      "index": 1,
+      "source": "historical_existing_evidence/PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI374_APPLIANCES/reached_node_records.json",
+      "stat": 5.695371102912449
+    },
+    {
+      "between_cutoffs": false,
+      "historical_reject": true,
+      "ideal_cutoff_reject": true,
+      "index": 2,
+      "source": "historical_existing_evidence/PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI374_APPLIANCES/reached_node_records.json",
+      "stat": 5.3547729540675855
+    },
+    {
+      "between_cutoffs": false,
+      "historical_reject": true,
+      "ideal_cutoff_reject": true,
+      "index": 0,
+      "source": "historical_existing_evidence/PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI492_METRO_TRAFFIC/reached_node_records.json",
+      "stat": 27.636276676947887
+    },
+    {
+      "between_cutoffs": false,
+      "historical_reject": true,
+      "ideal_cutoff_reject": true,
+      "index": 1,
+      "source": "historical_existing_evidence/PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI492_METRO_TRAFFIC/reached_node_records.json",
+      "stat": 27.665659389167335
+    },
+    {
+      "between_cutoffs": false,
+      "historical_reject": true,
+      "ideal_cutoff_reject": true,
+      "index": 2,
+      "source": "historical_existing_evidence/PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI492_METRO_TRAFFIC/reached_node_records.json",
+      "stat": 27.711454958362783
+    },
+    {
+      "between_cutoffs": false,
+      "historical_reject": true,
+      "ideal_cutoff_reject": true,
+      "index": 0,
+      "source": "historical_existing_evidence/PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage32/ETTm2/reached_node_records.jsonl",
+      "stat": 8.133651362553133
+    },
+    {
+      "between_cutoffs": false,
+      "historical_reject": false,
+      "ideal_cutoff_reject": false,
+      "index": 1,
+      "source": "historical_existing_evidence/PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage32/ETTm2/reached_node_records.jsonl",
+      "stat": -4.58949824629335
+    },
+    {
+      "between_cutoffs": false,
+      "historical_reject": true,
+      "ideal_cutoff_reject": true,
+      "index": 0,
+      "source": "historical_existing_evidence/PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage32/Weather/reached_node_records.jsonl",
+      "stat": 13.437265862511888
+    },
+    {
+      "between_cutoffs": false,
+      "historical_reject": false,
+      "ideal_cutoff_reject": false,
+      "index": 1,
+      "source": "historical_existing_evidence/PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage32/Weather/reached_node_records.jsonl",
+      "stat": -5.7496297088891835
+    }
+  ]
+}

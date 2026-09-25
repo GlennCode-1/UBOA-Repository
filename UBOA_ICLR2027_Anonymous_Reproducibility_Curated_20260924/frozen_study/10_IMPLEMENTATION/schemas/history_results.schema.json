@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UBOA Route-B Per-History Results",
+  "type": "array",
+  "minItems": 80,
+  "maxItems": 80,
+  "items": {
+    "type": "object",
+    "required": ["history_id", "cell_id", "outer_index", "history_record_sha256", "implementation_freeze_sha256", "inner_rng_key", "inner_batch_sha256", "inner_denominator", "truth_by_node", "first_true_null", "local_reject_counts", "reached_counts", "terminal_report_counts", "false_promotions", "invalid_count", "pathwise_invariant_violations", "informativeness_margin_mu_minus_threshold"],
+    "properties": {
+      "inner_denominator": {"const": 4096},
+      "local_reject_counts": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "integer", "minimum": 0, "maximum": 4096}},
+      "reached_counts": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "integer", "minimum": 0, "maximum": 4096}},
+      "false_promotions": {"type": "integer", "minimum": 0, "maximum": 4096},
+      "invalid_count": {"type": "integer", "minimum": 0, "maximum": 4096},
+      "pathwise_invariant_violations": {"type": "integer", "minimum": 0, "maximum": 4096}
+    }
+  }
+}

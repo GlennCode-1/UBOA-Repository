@@ -1,0 +1,82 @@
+{
+  "study_id": "UBOA_ROUTE_B_SYNTH_CONFIRMATORY_V1",
+  "freeze_date": "2026-09-15",
+  "status": "SCIENTIFIC_PROTOCOL_FROZEN_NOT_EXECUTED",
+  "route": "Route B / Route 1 conditional certificate family",
+  "objective": "Fresh synthetic confirmatory implementation audit for finite-sample a.s.-given-H local control in two explicit P-classes. The theorem, not simulation, supplies validity.",
+  "master_seed_hex": "7fae9301e8e38493e1917601eef359468a74b79fab00cd4a31777da6074dc110",
+  "rng": "numpy.random.Generator(PCG64DXSM), per-stream seeds derived by SHA256(master_seed|cell_id|stream_type|index)",
+  "ladder": [
+    0.0,
+    0.02,
+    0.05
+  ],
+  "local_alpha": 0.05,
+  "fixed_sequence": "strict rejection W_r > certificate_threshold_r; stop at first nonrejection; invalid reached node => unresolved",
+  "primary_blocks": [
+    {
+      "id": "B1_MAE",
+      "theorem": "Theorem A bounded-innovation whole-functional McDiarmid",
+      "generator": "Y_t=0.5 Y_{t-1}+epsilon_t; epsilon_t iid Rademacher ±1",
+      "loss": "raw MAE",
+      "horizons": [
+        1,
+        3,
+        6
+      ],
+      "burn_in": 256,
+      "validation_origins": 64,
+      "evaluation_origins": 512,
+      "outer_histories_per_cell": 8,
+      "inner_futures_per_history": 4096,
+      "selected_pool": [
+        "delta=-0.1",
+        "delta=+0.1"
+      ],
+      "forecast": "0.5^h Y_o + delta",
+      "weights": "equal over origin-horizon terms"
+    },
+    {
+      "id": "QB_MSE",
+      "theorem": "Theorem B exact quadratic variance + Cantelli",
+      "generator": "Y_t=0.5 Y_{t-1}+epsilon_t; epsilon_t iid N(0,1)",
+      "loss": "raw MSE",
+      "horizons": [
+        1,
+        3,
+        6
+      ],
+      "burn_in": 256,
+      "validation_origins": 64,
+      "evaluation_origins": 256,
+      "outer_histories_per_cell": 8,
+      "inner_futures_per_history": 4096,
+      "selected_pool": [
+        "gamma=-0.1",
+        "gamma=+0.1"
+      ],
+      "forecast": "(0.5^h + gamma) Y_o",
+      "weights": "equal over origin-horizon terms"
+    }
+  ],
+  "history_construction": "Generate burn-in plus validation only. Validation uses same horizons/loss and deterministic tie-break negative parameter first. H ends after last validation target is revealed. No evaluation innovation is generated before H is frozen.",
+  "number_primary_cells": 10,
+  "number_outer_histories": 80,
+  "total_inner_paths": 327680,
+  "forbidden": [
+    "reuse old 432k records",
+    "reuse old external challenge",
+    "read any real dataset/OOS",
+    "change cell grid after stochastic execution",
+    "drop unfavorable cells",
+    "rerun with new seeds and call confirmatory",
+    "tune certificate after outcomes"
+  ],
+  "secondary_deterministic_fixtures": [
+    "missing support/range certificate => HOLD",
+    "missing Gaussian fourth moment specification => HOLD",
+    "correlated scalar innovation coordinates passed to exact quadratic formula => HOLD",
+    "changed horizons/weights after freeze => mismatch/unsupported",
+    "nonfinite computed certificate input => unresolved"
+  ]
+}

@@ -1,0 +1,1621 @@
+[
+  {
+    "id": "absent_empirical_fields",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "empirical_rate",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_design_empirical",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "finite_design_empirical",
+      "conclusion_type": "empirical_rate",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_design_empirical",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [],
+      "verified_assumptions": [],
+      "metadata": {}
+    },
+    "expected_status": "UNSUPPORTED_REQUEST"
+  },
+  {
+    "id": "zero_empirical_denominator",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "empirical_rate",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_design_empirical",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "metadata": {
+        "design_mixture": "frozen_144_cells",
+        "denominator": 0,
+        "sample_range": "all_saved_records",
+        "selection_record": "frozen_selection"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "finite_design_empirical",
+      "conclusion_type": "empirical_rate",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_design_empirical",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [],
+      "verified_assumptions": [],
+      "metadata": {
+        "design_mixture": "frozen_144_cells",
+        "denominator": 0,
+        "sample_range": "all_saved_records",
+        "selection_record": "frozen_selection"
+      }
+    },
+    "expected_status": "UNSUPPORTED_REQUEST"
+  },
+  {
+    "id": "unverified_coarsening_premise",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "probability_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "selected_label",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "conditional_bound",
+      "conclusion_type": "probability_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [
+        "conditional_local_validity"
+      ],
+      "verified_assumptions": [],
+      "metadata": {
+        "declared_coarsenings": [
+          "selected_label",
+          "trivial"
+        ],
+        "same_joint_law": true,
+        "same_error_event": true,
+        "integrable_indicator": true,
+        "bound_constant_or_coarser_measurable": true
+      }
+    },
+    "expected_status": "UNSUPPORTED_REQUEST"
+  },
+  {
+    "id": "wrong_conditional_conclusion",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "structural_identity",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "selected_label",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "conditional_bound",
+      "conclusion_type": "probability_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [
+        "conditional_local_validity"
+      ],
+      "verified_assumptions": [
+        "conditional_local_validity"
+      ],
+      "metadata": {
+        "declared_coarsenings": [
+          "selected_label",
+          "trivial"
+        ],
+        "same_joint_law": true,
+        "same_error_event": true,
+        "integrable_indicator": true,
+        "bound_constant_or_coarser_measurable": true
+      }
+    },
+    "expected_status": "UNSUPPORTED_REQUEST"
+  },
+  {
+    "id": "wrong_same_field_conclusion",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "structural_identity",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "conditional_bound",
+      "conclusion_type": "probability_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [
+        "conditional_local_validity"
+      ],
+      "verified_assumptions": [
+        "conditional_local_validity"
+      ],
+      "metadata": {
+        "declared_coarsenings": [
+          "selected_label",
+          "trivial"
+        ],
+        "same_joint_law": true,
+        "same_error_event": true,
+        "integrable_indicator": true,
+        "bound_constant_or_coarser_measurable": true
+      }
+    },
+    "expected_status": "UNSUPPORTED_REQUEST"
+  },
+  {
+    "id": "malformed_scientific_object",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "probability_bound",
+      "scientific": null,
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "theorem",
+      "conclusion_type": "probability_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [
+        "conditional_local_validity"
+      ],
+      "verified_assumptions": [
+        "conditional_local_validity"
+      ],
+      "metadata": {}
+    },
+    "expected_status": "UNSUPPORTED_REQUEST"
+  },
+  {
+    "id": "malformed_assumptions",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "probability_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "theorem",
+      "conclusion_type": "probability_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [
+        {}
+      ],
+      "verified_assumptions": [
+        "conditional_local_validity"
+      ],
+      "metadata": {}
+    },
+    "expected_status": "UNSUPPORTED_REQUEST"
+  },
+  {
+    "id": "false_string_identity",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "structural_identity",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "structural_identity",
+      "conclusion_type": "structural_identity",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [],
+      "verified_assumptions": [],
+      "metadata": {
+        "pointwise_identity": "false",
+        "denominator_status": "unknown"
+      }
+    },
+    "expected_status": "UNSUPPORTED_REQUEST"
+  },
+  {
+    "id": "false_string_copy_sidecondition",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "observed_decision",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "observed_record",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "observed_decision",
+      "conclusion_type": "observed_decision",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "observed_record",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [],
+      "verified_assumptions": [],
+      "metadata": {
+        "reached_nodes_only": true,
+        "method_retained": "false",
+        "boundary_retained": true
+      }
+    },
+    "expected_status": "UNSUPPORTED_REQUEST"
+  },
+  {
+    "id": "false_string_coarsening_sidecondition",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "probability_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "selected_label",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "conditional_bound",
+      "conclusion_type": "probability_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [
+        "conditional_local_validity"
+      ],
+      "verified_assumptions": [
+        "conditional_local_validity"
+      ],
+      "metadata": {
+        "declared_coarsenings": [
+          "selected_label",
+          "trivial"
+        ],
+        "same_joint_law": "false",
+        "same_error_event": true,
+        "integrable_indicator": true,
+        "bound_constant_or_coarser_measurable": true
+      }
+    },
+    "expected_status": "UNSUPPORTED_REQUEST"
+  },
+  {
+    "id": "wrong_local_evidence_type",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "fixed_sequence_error_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "local_validity_family",
+      "conclusion_type": "observed_decision",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [
+        "truth_events_measurable",
+        "local_bounds_hold"
+      ],
+      "verified_assumptions": [
+        "truth_events_measurable",
+        "local_bounds_hold"
+      ],
+      "metadata": {
+        "potential_tests_defined": true,
+        "ordered_family": true,
+        "stop_at_first_valid_nonrejection": true,
+        "invalid_policy": "whole_request_unresolved",
+        "no_true_null_convention": true
+      }
+    },
+    "expected_status": "UNSUPPORTED_REQUEST"
+  },
+  {
+    "id": "empty_local_premises",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "fixed_sequence_error_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "local_validity_family",
+      "conclusion_type": "local_node_bounds",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [],
+      "verified_assumptions": [],
+      "metadata": {
+        "potential_tests_defined": true,
+        "ordered_family": true,
+        "stop_at_first_valid_nonrejection": true,
+        "invalid_policy": "whole_request_unresolved",
+        "no_true_null_convention": true
+      }
+    },
+    "expected_status": "UNSUPPORTED_REQUEST"
+  },
+  {
+    "id": "false_string_fixed_sequence_flag",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "fixed_sequence_error_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "local_validity_family",
+      "conclusion_type": "local_node_bounds",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [
+        "truth_events_measurable",
+        "local_bounds_hold"
+      ],
+      "verified_assumptions": [
+        "truth_events_measurable",
+        "local_bounds_hold"
+      ],
+      "metadata": {
+        "potential_tests_defined": "false",
+        "ordered_family": true,
+        "stop_at_first_valid_nonrejection": true,
+        "invalid_policy": "whole_request_unresolved",
+        "no_true_null_convention": true
+      }
+    },
+    "expected_status": "UNSUPPORTED_REQUEST"
+  },
+  {
+    "id": "wrong_observed_evidence_type",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "observed_decision",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "observed_record",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "observed_decision",
+      "conclusion_type": "probability_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "observed_record",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [],
+      "verified_assumptions": [],
+      "metadata": {
+        "reached_nodes_only": true,
+        "method_retained": true,
+        "boundary_retained": true
+      }
+    },
+    "expected_status": "UNSUPPORTED_REQUEST"
+  },
+  {
+    "id": "wrong_empirical_evidence_type",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "empirical_rate",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_design_empirical",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "metadata": {
+        "design_mixture": "frozen_144_cells",
+        "denominator": 432000,
+        "sample_range": "all_saved_records",
+        "selection_record": "frozen_selection"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "finite_design_empirical",
+      "conclusion_type": "probability_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_design_empirical",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [],
+      "verified_assumptions": [],
+      "metadata": {
+        "design_mixture": "frozen_144_cells",
+        "denominator": 432000,
+        "sample_range": "all_saved_records",
+        "selection_record": "frozen_selection"
+      }
+    },
+    "expected_status": "UNSUPPORTED_REQUEST"
+  },
+  {
+    "id": "structural_scope_swap",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "structural_identity",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "structural_identity",
+      "conclusion_type": "structural_identity",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "different_event",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [],
+      "verified_assumptions": [],
+      "metadata": {
+        "pointwise_identity": true,
+        "denominator_status": "unknown"
+      }
+    },
+    "expected_status": "UNSUPPORTED_REQUEST"
+  },
+  {
+    "id": "valid_conditional_same_field",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "probability_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "conditional_bound",
+      "conclusion_type": "probability_bound",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_sample_exact",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [
+        "conditional_local_validity"
+      ],
+      "verified_assumptions": [
+        "conditional_local_validity"
+      ],
+      "metadata": {
+        "declared_coarsenings": [
+          "selected_label",
+          "trivial"
+        ],
+        "same_joint_law": true,
+        "same_error_event": true,
+        "integrable_indicator": true,
+        "bound_constant_or_coarser_measurable": true
+      }
+    },
+    "expected_status": "ESTABLISHED"
+  },
+  {
+    "id": "valid_new_positive_denominator",
+    "basis": "deterministic development regression, not held-out utility evidence",
+    "request": {
+      "request_id": "REQ_BASE",
+      "conclusion_type": "empirical_rate",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_design_empirical",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "metadata": {
+        "design_mixture": "frozen_144_cells",
+        "denominator": 1234,
+        "sample_range": "all_saved_records",
+        "selection_record": "frozen_selection"
+      }
+    },
+    "evidence": {
+      "evidence_id": "E_BASE",
+      "kind": "finite_design_empirical",
+      "conclusion_type": "empirical_rate",
+      "scientific": {
+        "target_id": "selected_rule_relative_loss",
+        "selected_object": "rule_s",
+        "comparator": "rule_b",
+        "loss": "absolute_error",
+        "members": [
+          "m1",
+          "m2"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "weights": [
+          0.5,
+          0.5
+        ],
+        "evaluation_law": "joint_law_P",
+        "thresholds": [
+          0.0,
+          0.02,
+          0.05
+        ]
+      },
+      "validity": {
+        "error_event": "any_false_promotion_in_request",
+        "conditioning": "full_history",
+        "law_quantifier": "named_joint_law_P",
+        "coverage_unit": "one_request",
+        "support_mode": "finite_design_empirical",
+        "sample_regime": "n_fixed",
+        "selection_mechanism": "selected_procedure"
+      },
+      "premises": [],
+      "verified_assumptions": [],
+      "metadata": {
+        "design_mixture": "frozen_144_cells",
+        "denominator": 1234,
+        "sample_range": "all_saved_records",
+        "selection_record": "frozen_selection"
+      }
+    },
+    "expected_status": "ESTABLISHED"
+  }
+]

@@ -1,0 +1,350 @@
+[
+  {
+    "application": "Weather",
+    "case": "observed_to_full_history_guarantee",
+    "result": {
+      "reasons": [
+        "OBSERVED_TO_GUARANTEE_FORBIDDEN"
+      ],
+      "request": {
+        "conclusion_type": "probability_bound",
+        "request_id": "Weather_FULL_HISTORY",
+        "scientific": {
+          "comparator": "last_value",
+          "evaluation_law": "saved_real_record_law",
+          "horizons": [
+            "frozen_horizons"
+          ],
+          "loss": "absolute_error",
+          "members": [
+            "frozen_scope"
+          ],
+          "selected_object": "mean_last_three",
+          "target_id": "selected_rule_relative_loss",
+          "thresholds": [
+            0.0,
+            0.02,
+            0.05
+          ],
+          "weights": [
+            1.0
+          ]
+        },
+        "validity": {
+          "conditioning": "full_history",
+          "coverage_unit": "one_request",
+          "error_event": "any_false_promotion_in_request",
+          "law_quantifier": "saved_application_law",
+          "sample_regime": "saved_real_record",
+          "selection_mechanism": "selected_procedure",
+          "support_mode": "finite_sample_exact"
+        }
+      },
+      "rule": "M7_MISMATCH",
+      "status": "UNSUPPORTED_REQUEST",
+      "weaker_evidence": {
+        "conclusion_type": "observed_decision",
+        "evidence_id": "SAVED_OBSERVED_DECISION",
+        "kind": "observed_decision",
+        "metadata": {
+          "boundary_retained": true,
+          "method_retained": true,
+          "reached_nodes_only": true
+        },
+        "premises": [],
+        "scientific": {
+          "comparator": "last_value",
+          "evaluation_law": "saved_real_record_law",
+          "horizons": [
+            "frozen_horizons"
+          ],
+          "loss": "absolute_error",
+          "members": [
+            "frozen_scope"
+          ],
+          "selected_object": "mean_last_three",
+          "target_id": "selected_rule_relative_loss",
+          "thresholds": [
+            0.0,
+            0.02,
+            0.05
+          ],
+          "weights": [
+            1.0
+          ]
+        },
+        "validity": {
+          "conditioning": "full_history",
+          "coverage_unit": "one_request",
+          "error_event": "any_false_promotion_in_request",
+          "law_quantifier": "saved_application_law",
+          "sample_regime": "saved_real_record",
+          "selection_mechanism": "selected_procedure",
+          "support_mode": "observed_record"
+        },
+        "verified_assumptions": []
+      }
+    }
+  },
+  {
+    "application": "Weather",
+    "case": "original_method_copy",
+    "result": {
+      "reasons": [
+        "OBSERVED_COPY_SIDE_CONDITION_FAILED:method_retained"
+      ],
+      "request": {
+        "conclusion_type": "observed_decision",
+        "request_id": "Weather_ORIGINAL_METHOD_COPY",
+        "scientific": {
+          "comparator": "last_value",
+          "evaluation_law": "saved_real_record_law",
+          "horizons": [
+            "frozen_horizons"
+          ],
+          "loss": "absolute_error",
+          "members": [
+            "frozen_scope"
+          ],
+          "selected_object": "mean_last_three",
+          "target_id": "selected_rule_relative_loss",
+          "thresholds": [
+            0.0,
+            0.02,
+            0.05
+          ],
+          "weights": [
+            1.0
+          ]
+        },
+        "validity": {
+          "conditioning": "full_history",
+          "coverage_unit": "one_request",
+          "error_event": "any_false_promotion_in_request",
+          "law_quantifier": "saved_application_law",
+          "sample_regime": "saved_real_record",
+          "selection_mechanism": "selected_procedure",
+          "support_mode": "observed_record"
+        }
+      },
+      "rule": "M7_MISMATCH",
+      "status": "UNSUPPORTED_REQUEST",
+      "weaker_evidence": {
+        "conclusion_type": "observed_decision",
+        "evidence_id": "SAVED_OBSERVED_DECISION",
+        "kind": "observed_decision",
+        "metadata": {
+          "boundary_retained": true,
+          "method_retained": false,
+          "reached_nodes_only": true
+        },
+        "premises": [],
+        "scientific": {
+          "comparator": "last_value",
+          "evaluation_law": "saved_real_record_law",
+          "horizons": [
+            "frozen_horizons"
+          ],
+          "loss": "absolute_error",
+          "members": [
+            "frozen_scope"
+          ],
+          "selected_object": "mean_last_three",
+          "target_id": "selected_rule_relative_loss",
+          "thresholds": [
+            0.0,
+            0.02,
+            0.05
+          ],
+          "weights": [
+            1.0
+          ]
+        },
+        "validity": {
+          "conditioning": "full_history",
+          "coverage_unit": "one_request",
+          "error_event": "any_false_promotion_in_request",
+          "law_quantifier": "saved_application_law",
+          "sample_regime": "saved_real_record",
+          "selection_mechanism": "selected_procedure",
+          "support_mode": "observed_record"
+        },
+        "verified_assumptions": []
+      }
+    }
+  },
+  {
+    "application": "ETTm2",
+    "case": "observed_to_full_history_guarantee",
+    "result": {
+      "reasons": [
+        "OBSERVED_TO_GUARANTEE_FORBIDDEN"
+      ],
+      "request": {
+        "conclusion_type": "probability_bound",
+        "request_id": "ETTm2_FULL_HISTORY",
+        "scientific": {
+          "comparator": "last_value",
+          "evaluation_law": "saved_real_record_law",
+          "horizons": [
+            "frozen_horizons"
+          ],
+          "loss": "absolute_error",
+          "members": [
+            "frozen_scope"
+          ],
+          "selected_object": "mean_last_three",
+          "target_id": "selected_rule_relative_loss",
+          "thresholds": [
+            0.0,
+            0.02,
+            0.05
+          ],
+          "weights": [
+            1.0
+          ]
+        },
+        "validity": {
+          "conditioning": "full_history",
+          "coverage_unit": "one_request",
+          "error_event": "any_false_promotion_in_request",
+          "law_quantifier": "saved_application_law",
+          "sample_regime": "saved_real_record",
+          "selection_mechanism": "selected_procedure",
+          "support_mode": "finite_sample_exact"
+        }
+      },
+      "rule": "M7_MISMATCH",
+      "status": "UNSUPPORTED_REQUEST",
+      "weaker_evidence": {
+        "conclusion_type": "observed_decision",
+        "evidence_id": "SAVED_OBSERVED_DECISION",
+        "kind": "observed_decision",
+        "metadata": {
+          "boundary_retained": true,
+          "method_retained": true,
+          "reached_nodes_only": true
+        },
+        "premises": [],
+        "scientific": {
+          "comparator": "last_value",
+          "evaluation_law": "saved_real_record_law",
+          "horizons": [
+            "frozen_horizons"
+          ],
+          "loss": "absolute_error",
+          "members": [
+            "frozen_scope"
+          ],
+          "selected_object": "mean_last_three",
+          "target_id": "selected_rule_relative_loss",
+          "thresholds": [
+            0.0,
+            0.02,
+            0.05
+          ],
+          "weights": [
+            1.0
+          ]
+        },
+        "validity": {
+          "conditioning": "full_history",
+          "coverage_unit": "one_request",
+          "error_event": "any_false_promotion_in_request",
+          "law_quantifier": "saved_application_law",
+          "sample_regime": "saved_real_record",
+          "selection_mechanism": "selected_procedure",
+          "support_mode": "observed_record"
+        },
+        "verified_assumptions": []
+      }
+    }
+  },
+  {
+    "application": "ETTm2",
+    "case": "original_method_copy",
+    "result": {
+      "reasons": [
+        "OBSERVED_COPY_SIDE_CONDITION_FAILED:method_retained"
+      ],
+      "request": {
+        "conclusion_type": "observed_decision",
+        "request_id": "ETTm2_ORIGINAL_METHOD_COPY",
+        "scientific": {
+          "comparator": "last_value",
+          "evaluation_law": "saved_real_record_law",
+          "horizons": [
+            "frozen_horizons"
+          ],
+          "loss": "absolute_error",
+          "members": [
+            "frozen_scope"
+          ],
+          "selected_object": "mean_last_three",
+          "target_id": "selected_rule_relative_loss",
+          "thresholds": [
+            0.0,
+            0.02,
+            0.05
+          ],
+          "weights": [
+            1.0
+          ]
+        },
+        "validity": {
+          "conditioning": "full_history",
+          "coverage_unit": "one_request",
+          "error_event": "any_false_promotion_in_request",
+          "law_quantifier": "saved_application_law",
+          "sample_regime": "saved_real_record",
+          "selection_mechanism": "selected_procedure",
+          "support_mode": "observed_record"
+        }
+      },
+      "rule": "M7_MISMATCH",
+      "status": "UNSUPPORTED_REQUEST",
+      "weaker_evidence": {
+        "conclusion_type": "observed_decision",
+        "evidence_id": "SAVED_OBSERVED_DECISION",
+        "kind": "observed_decision",
+        "metadata": {
+          "boundary_retained": true,
+          "method_retained": false,
+          "reached_nodes_only": true
+        },
+        "premises": [],
+        "scientific": {
+          "comparator": "last_value",
+          "evaluation_law": "saved_real_record_law",
+          "horizons": [
+            "frozen_horizons"
+          ],
+          "loss": "absolute_error",
+          "members": [
+            "frozen_scope"
+          ],
+          "selected_object": "mean_last_three",
+          "target_id": "selected_rule_relative_loss",
+          "thresholds": [
+            0.0,
+            0.02,
+            0.05
+          ],
+          "weights": [
+            1.0
+          ]
+        },
+        "validity": {
+          "conditioning": "full_history",
+          "coverage_unit": "one_request",
+          "error_event": "any_false_promotion_in_request",
+          "law_quantifier": "saved_application_law",
+          "sample_regime": "saved_real_record",
+          "selection_mechanism": "selected_procedure",
+          "support_mode": "observed_record"
+        },
+        "verified_assumptions": []
+      }
+    }
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "confirmatory": true,
+    "critical_value": 5.298829753159216,
+    "method_id": "C2_SN_MEAN_BROWNIAN_FUNCTIONAL_V2",
+    "normalizer": 4197157.030367323,
+    "p_value": 4.9999750001249995e-06,
+    "reason": null,
+    "rejection": true,
+    "sample_mean_contrast": 3624806.0296196346,
+    "status": "VALID",
+    "test_statistic": 27.636276676947887,
+    "threshold": 0.0
+  },
+  {
+    "confirmatory": true,
+    "critical_value": 5.298829753159216,
+    "method_id": "C2_SN_MEAN_BROWNIAN_FUNCTIONAL_V2",
+    "normalizer": 4063335.2061293502,
+    "p_value": 4.9999750001249995e-06,
+    "reason": null,
+    "rejection": true,
+    "sample_mean_contrast": 3512963.993649583,
+    "status": "VALID",
+    "test_statistic": 27.665659389167335,
+    "threshold": 0.02
+  },
+  {
+    "confirmatory": true,
+    "critical_value": 5.298829753159216,
+    "method_id": "C2_SN_MEAN_BROWNIAN_FUNCTIONAL_V2",
+    "normalizer": 3862894.612753618,
+    "p_value": 4.9999750001249995e-06,
+    "reason": null,
+    "rejection": true,
+    "sample_mean_contrast": 3345200.9396945043,
+    "status": "VALID",
+    "test_statistic": 27.711454958362783,
+    "threshold": 0.05
+  }
+]

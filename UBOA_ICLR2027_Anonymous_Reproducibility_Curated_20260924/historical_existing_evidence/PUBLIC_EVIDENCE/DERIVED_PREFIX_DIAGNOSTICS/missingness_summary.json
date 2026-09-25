@@ -1,0 +1,173 @@
+{
+  "execution_record_status": "MISSING",
+  "identity": "DERIVED_FROM_EXISTING_PREFIX",
+  "planned_rule": "hold target with more than 20 percent missing validation origins",
+  "scope": "first floor(0.8*N) decoded rows only; no final 20 percent source read",
+  "source_archives": {
+    "UCI235_HOUSEHOLD_POWER": {
+      "distributed": false,
+      "reason": "third-party raw archive excluded; only allowed deterministic diagnostics are exported",
+      "repository_relative_path": "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+      "sha256": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff"
+    },
+    "UCI275_BIKE_HOURLY": {
+      "distributed": false,
+      "reason": "third-party raw archive excluded; only allowed deterministic diagnostics are exported",
+      "repository_relative_path": "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+      "sha256": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401"
+    },
+    "UCI360_AIR_QUALITY_CO": {
+      "distributed": false,
+      "reason": "third-party raw archive excluded; only allowed deterministic diagnostics are exported",
+      "repository_relative_path": "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+      "sha256": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a"
+    },
+    "UCI374_APPLIANCES": {
+      "distributed": false,
+      "reason": "third-party raw archive excluded; only allowed deterministic diagnostics are exported",
+      "repository_relative_path": "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+      "sha256": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a"
+    },
+    "UCI492_METRO_TRAFFIC": {
+      "distributed": false,
+      "reason": "third-party raw archive excluded; only allowed deterministic diagnostics are exported",
+      "repository_relative_path": "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip",
+      "sha256": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768"
+    },
+    "UCI501_BEIJING_PM25": {
+      "distributed": false,
+      "reason": "third-party raw archive excluded; only allowed deterministic diagnostics are exported",
+      "repository_relative_path": "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+      "sha256": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+    }
+  },
+  "tasks": {
+    "UCI235_HOUSEHOLD_POWER": {
+      "decoded_prefix_rows_per_member": [
+        1660207
+      ],
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "leading_missing_rows_per_member": [
+        0
+      ],
+      "missing_target_slots": 408,
+      "not_an_execution_log": true,
+      "origin_denominator": 6894,
+      "origins_with_any_raw_missing_target": 225,
+      "raw_validation_row_denominator": 415052,
+      "raw_validation_row_missing": 7343,
+      "target_slot_denominator": 20682,
+      "timestamp_semantics": {
+        "complete_timestamp_clock_hours": 27669,
+        "executed_60row_groups": 27670,
+        "executed_groups_crossing_clock_hour_boundary": 27670,
+        "first_executed_group_last_timestamp": "2006-12-16 18:23:00",
+        "first_timestamp": "2006-12-16 17:24:00",
+        "partial_timestamp_clock_hours": 2
+      }
+    },
+    "UCI275_BIKE_HOURLY": {
+      "decoded_prefix_rows_per_member": [
+        13903
+      ],
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "leading_missing_rows_per_member": [
+        0
+      ],
+      "missing_target_slots": 0,
+      "not_an_execution_log": true,
+      "origin_denominator": 3452,
+      "origins_with_any_raw_missing_target": 0,
+      "raw_validation_row_denominator": 3476,
+      "raw_validation_row_missing": 0,
+      "target_slot_denominator": 10356
+    },
+    "UCI360_AIR_QUALITY_CO": {
+      "decoded_prefix_rows_per_member": [
+        7486
+      ],
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "leading_missing_rows_per_member": [
+        0
+      ],
+      "missing_target_slots": 461,
+      "not_an_execution_log": true,
+      "origin_denominator": 1848,
+      "origins_with_any_raw_missing_target": 273,
+      "raw_validation_row_denominator": 1872,
+      "raw_validation_row_missing": 154,
+      "target_slot_denominator": 5544
+    },
+    "UCI374_APPLIANCES": {
+      "decoded_prefix_rows_per_member": [
+        15788
+      ],
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "leading_missing_rows_per_member": [
+        0
+      ],
+      "missing_target_slots": 0,
+      "not_an_execution_log": true,
+      "origin_denominator": 3929,
+      "origins_with_any_raw_missing_target": 0,
+      "raw_validation_row_denominator": 3947,
+      "raw_validation_row_missing": 0,
+      "target_slot_denominator": 11787
+    },
+    "UCI492_METRO_TRAFFIC": {
+      "decoded_prefix_rows_per_member": [
+        38563
+      ],
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "leading_missing_rows_per_member": [
+        0
+      ],
+      "missing_target_slots": 0,
+      "not_an_execution_log": true,
+      "origin_denominator": 9617,
+      "origins_with_any_raw_missing_target": 0,
+      "raw_validation_row_denominator": 9641,
+      "raw_validation_row_missing": 0,
+      "target_slot_denominator": 28851
+    },
+    "UCI501_BEIJING_PM25": {
+      "decoded_prefix_rows_per_member": [
+        28051,
+        28051,
+        28051,
+        28051,
+        28051,
+        28051,
+        28051,
+        28051,
+        28051,
+        28051,
+        28051,
+        28051
+      ],
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "leading_missing_rows_per_member": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "missing_target_slots": 5797,
+      "not_an_execution_log": true,
+      "origin_denominator": 6989,
+      "origins_with_any_raw_missing_target": 2720,
+      "raw_validation_row_denominator": 84156,
+      "raw_validation_row_missing": 1939,
+      "target_slot_denominator": 251604
+    }
+  },
+  "warning": "these diagnostics do not establish which denominator was historically intended or enforced"
+}

@@ -1,0 +1,37 @@
+{
+  "B1_MISSING_SUPPORT": {
+    "exception": "ValueError",
+    "message": "INVALID_CERTIFICATE: missing/nonfinite state support",
+    "operational_status": "UNRESOLVED_INVALID_CERTIFICATE",
+    "positive_terminal_promotion": false,
+    "status": "INVALID_CERTIFICATE_HOLD"
+  },
+  "NONFINITE_CERTIFICATE": {
+    "exception": "ValueError",
+    "message": "INVALID_CERTIFICATE: missing/nonfinite innovation diameter",
+    "operational_status": "UNRESOLVED_INVALID_CERTIFICATE",
+    "positive_terminal_promotion": false,
+    "status": "INVALID_CERTIFICATE_HOLD"
+  },
+  "QB_CORRELATED_SCALAR_COORDS": {
+    "exception": "ValueError",
+    "message": "INVALID_CERTIFICATE: scalar innovation coordinates are correlated",
+    "operational_status": "UNRESOLVED_INVALID_CERTIFICATE",
+    "positive_terminal_promotion": false,
+    "status": "INVALID_CERTIFICATE_HOLD"
+  },
+  "QB_MISSING_M4": {
+    "exception": "ValueError",
+    "message": "INVALID_CERTIFICATE: fourth moment m4 is required",
+    "operational_status": "UNRESOLVED_INVALID_CERTIFICATE",
+    "positive_terminal_promotion": false,
+    "status": "INVALID_CERTIFICATE_HOLD"
+  },
+  "SCOPE_MUTATION": {
+    "exception": "ValueError",
+    "message": "scope mismatch: origins, horizons, order, or weights changed",
+    "operational_status": "UNRESOLVED_INVALID_CERTIFICATE",
+    "positive_terminal_promotion": false,
+    "status": "INVALID_CERTIFICATE_HOLD"
+  }
+}

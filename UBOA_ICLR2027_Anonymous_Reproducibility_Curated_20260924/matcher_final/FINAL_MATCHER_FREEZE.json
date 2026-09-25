@@ -1,0 +1,98 @@
+{
+  "schema_version": "uboa.final_matcher_freeze.v1",
+  "created_at": "2026-09-17T14:17:18+02:00",
+  "status": "FINAL_MATCHER_CANDIDATE_WITH_ONE_DECLARED_LEGACY_FIXTURE_INCOMPATIBILITY",
+  "final_matcher_id": "sha256:920acdcf516c477b575bb87945ccd2d64cc79e7d831ee23d2b6a5afedf50f0eb",
+  "source": {
+    "path": "UBOA_Review_Repair_20260916/09_NEXT_OUTPUTS/final_matcher/matcher.py",
+    "bytes": 15139,
+    "sha256": "920acdcf516c477b575bb87945ccd2d64cc79e7d831ee23d2b6a5afedf50f0eb"
+  },
+  "baseline": {
+    "path": "challenge_workspace/evaluator_only/06_EVALUATOR_ONLY/revised/matcher.py",
+    "sha256": "03ceeb482c23bcc8bf481a83c3d1ae3c682230264d42b5378e9b620539a6b583"
+  },
+  "frozen_supporting_files": [
+    {
+      "path": "UBOA_Review_Repair_20260916/09_NEXT_OUTPUTS/final_matcher/test_final_matcher.py",
+      "bytes": 7066,
+      "sha256": "2306e04a3d728aa4f397877f16575b13df052d471ae7109c9407cfdbf879378d"
+    },
+    {
+      "path": "UBOA_Review_Repair_20260916/09_NEXT_OUTPUTS/final_matcher/FINAL_MATCHER_PATCH.diff",
+      "sha256": "1cfdfe97b498c4fc22db2ea434db2f33ed8dc305ab57c99139f705a7567e390c"
+    },
+    {
+      "path": "UBOA_Review_Repair_20260916/09_NEXT_OUTPUTS/final_matcher/REGRESSION_REPORT.md",
+      "sha256": "c582233b93ca9a075bd9a152424c3f8850e8f87b1bb6f033f252a9cd58682ae2"
+    },
+    {
+      "path": "UBOA_Review_Repair_20260916/09_NEXT_OUTPUTS/final_matcher/ACCESS_AND_EXECUTION_LOG.md",
+      "sha256": "e666b4ad7d48bff4ae1038cea042efdce152f3161ebe28abe03fb37d88a83499"
+    },
+    {
+      "path": "UBOA_Review_Repair_20260916/09_NEXT_OUTPUTS/final_matcher/NATIVE_INPUT_CONTRACT.md",
+      "sha256": "a726f566a37f48995aa8899e7c4935c7496f9a68f94bded3d0fe2cac2b59824a"
+    }
+  ],
+  "read_only_input_bindings": [
+    {
+      "path": "challenge_workspace/CHALLENGE_V2_FROZEN.jsonl",
+      "sha256": "8c0b2a0f58a227a11fc10f476c4a515c42e92ee45c0b7b3580d9491097bebfe3",
+      "use": "post-exposure deterministic regression only"
+    },
+    {
+      "path": "iclr2027_redesign/40_routeA_review_issue_closure/01_handoffs/theory_matcher/GOLD_FIXTURES.json",
+      "sha256": "62421f878913532c0a173c1b97285cf66a1ca09fd2ac8bedbae54cde7fef227c",
+      "use": "unmodified legacy compatibility check"
+    },
+    {
+      "path": "UBOA_Review_Repair_20260916_Reproducibility.zip",
+      "sha256": "47babeb974a794dee17bb1399954377011a79bc992bd5ec787fdc0a9b541f33a",
+      "use": "unmodified revised development regressions and legacy test harness"
+    }
+  ],
+  "authorized_changes": [
+    "M2 rejects missing, non-string, empty, or whitespace-only observed-record provenance",
+    "M4 rejects theorem/asymptotic_theorem evidence with an empty premises list"
+  ],
+  "preserved_behavior": [
+    "conclusion_type checking",
+    "validity-coordinate matching",
+    "M1-M8 branch structure",
+    "scientific target matching",
+    "terminal trace policy"
+  ],
+  "regression_results": {
+    "candidate_test_methods": {"passed": 9, "failed": 0},
+    "revised_development_records": {"passed": 18, "failed": 0},
+    "legacy_gold_unchanged": {"passed": 22, "intentionally_reclassified": 1, "total": 23},
+    "legacy_exact_harness": {
+      "test_methods_passed": 5,
+      "test_methods_failed": 1,
+      "sole_failure": "observed_decision_copy fixture lacks required provenance"
+    },
+    "v2_post_exposure": {
+      "cases": 160,
+      "ambiguous": 3,
+      "exceptions": 0,
+      "false_accepts": 0,
+      "valid_not_licensed": 10,
+      "interpretation": "development regression only; not held-out or independent"
+    }
+  },
+  "environment": {
+    "python": "CPython 3.11.3",
+    "os": "Darwin",
+    "architecture": "arm64"
+  },
+  "hard_zero_counters": {
+    "rng_calls": 0,
+    "stochastic_simulations": 0,
+    "model_training_or_fitting": 0,
+    "new_oos_access": 0,
+    "manuscript_edits": 0,
+    "frozen_scientific_result_edits": 0
+  },
+  "verification_command": "cd UBOA_Review_Repair_20260916/09_NEXT_OUTPUTS/final_matcher && python3 -m unittest -v test_final_matcher.py"
+}

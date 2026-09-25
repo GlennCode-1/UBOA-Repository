@@ -1,0 +1,26 @@
+{
+  "role": "post hoc deterministic reference diagnostic; not original calibration regeneration",
+  "historical_cutoff_unchanged": "5.2988297532",
+  "calculations": [
+    {
+      "decimal_precision": 40,
+      "ideal_upper_0.95_quantile": "5.3226799005302636613471286961007",
+      "ideal_tail_at_historical_cutoff": "0.050579923349104212650264261150574",
+      "alternative_integral_difference": "0.0"
+    },
+    {
+      "decimal_precision": 65,
+      "ideal_upper_0.95_quantile": "5.3226799005302636613471286961007",
+      "ideal_tail_at_historical_cutoff": "0.050579923349104212650264261150574",
+      "alternative_integral_difference": "0.0"
+    }
+  ],
+  "new_random_paths": 0,
+  "original_decisions_recomputed": false,
+  "limitations": [
+    "Does not recover original Monte Carlo/discretization error.",
+    "Does not establish finite-sample size of the historical time-series test.",
+    "No saved historical statistics were available to measure changed decisions.",
+    "High precision convergence is not a rigorous interval certificate."
+  ]
+}

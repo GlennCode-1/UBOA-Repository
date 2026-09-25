@@ -1,0 +1,13 @@
+{
+  "errors": 0,
+  "failures": 0,
+  "five_invalid_fixtures_pass": true,
+  "real_dataset_reads": 0,
+  "rng_call_count_during_dry_run": 0,
+  "rng_static_scan": "PASS",
+  "scientific_freeze_errors": [],
+  "status": "PASS",
+  "stochastic_execution_started": false,
+  "synthetic_paths_generated": 0,
+  "tests_run": 15
+}

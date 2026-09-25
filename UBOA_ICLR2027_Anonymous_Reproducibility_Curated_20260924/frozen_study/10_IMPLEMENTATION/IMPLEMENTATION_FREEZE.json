@@ -1,0 +1,49 @@
+{
+  "dry_run_artifact_sha256": {
+    "dry_run_artifacts/dry_run_results.json": "63d28f050f9186620c120485a8637f13b0a9b00164ab50af47025da3e4a1a965",
+    "dry_run_artifacts/invalid_fixture_results.json": "64344754f6b6c0890811df499cf7d8f9e1ceb35ba928eaf9fdf25db9ebc0bccf",
+    "dry_run_artifacts/static_rng_scan.json": "f96a1dd0363c0e6830965edaff608f0cbd6879b0efeae614f9357a83cd77cafe"
+  },
+  "environment": {
+    "architecture": "arm64",
+    "numpy": "2.0.2",
+    "os": "macOS-26.5.1-arm64-arm-64bit",
+    "python": "3.9.6",
+    "python_implementation": "CPython",
+    "scipy": "1.13.1"
+  },
+  "executable_source_sha256": {
+    "analyze_confirmatory.py": "da3c942d6af3143354dd83f79700f6b944e9ee7c4dbb5cdee46eaebcb376c556",
+    "certificate_b1.py": "06b3a06cc3b7d7acbf4c49e6d13849291a70f071d072e87d1d5e384482289ff8",
+    "certificate_qb.py": "8a0a0838f84273d8aaf3168c13c6df78260e5dad624a4d284b37f8f0b71d0aef",
+    "dry_run.py": "71bdac7f165f0153a042890a4c7c05b8e369630300a2f380576a500310773b69",
+    "fixed_sequence.py": "8810ae0ad342910b40c8e83f97c2ac24ef305aae426791b2ed5d3a705e76e867",
+    "freeze_implementation.py": "3c63c546c79b9a571fa149b9b24248d0d208f392004be2c4d97abceeb37dc327",
+    "generators.py": "f5e1745fd6fbcba97915af94d3bfb706d800715641f5eb8824ffc568af77769c",
+    "invalid_fixtures.py": "846569823e2195a9606be70a52eeadfd25386894ed63a696119fe38f53fbf9ea",
+    "protocol.py": "bbb4533727c67a896c4d390440aa42bd4e72b311f3ef5871e3e9a678cac5bddd",
+    "run_confirmatory.py": "638b892c22f73cd1599cdd3c19a9b44098b0ba591132b9123e02974240d90396",
+    "seed_schedule.py": "2b84eb989fbc7e2cd2f2fdeffe2373cb6ebcc4a541014cf35300c02fee67736d",
+    "selection.py": "828cadf6e5532a0121dc12b6b61e3a55f9b866b6f0aae96d247371634ce28247",
+    "tests/test_dry_run.py": "4bb8b4b320f554dd2ee8a644a4080b4c4ac90c8ab4ae3bf9c2427783423fc298",
+    "truth.py": "0e62c21f548463a0e54202eda41f004808f922763382ec7130288748f4fa317f",
+    "verify_outputs.py": "4441f57962ba3d3a46fd70a32ff3ef4d20baf8206659a2b8cdddadc5690fbdc3"
+  },
+  "freeze_created_utc": "2026-09-15T14:24:26.189268+00:00",
+  "future_execution_command": "python3 10_IMPLEMENTATION/run_confirmatory.py --implementation-freeze 10_IMPLEMENTATION/IMPLEMENTATION_FREEZE.json --audit-verdict 11_PREEXEC_AUDIT/FINAL_VERDICT.json --output-dir 09_OUTPUTS/confirmatory_run",
+  "manuscript_edits": 0,
+  "real_dataset_reads": 0,
+  "rng_call_count_during_dry_run": 0,
+  "schema_sha256": {
+    "schemas/analysis_summary.schema.json": "e50d56a3e539b4733fd6517055e76db896dbed42d17a1351b0136d8bd56913cd",
+    "schemas/h_freeze_manifest.schema.json": "c211765b50869d6987fd5b411a00f2d4391180105f92948a65cadf671286d273",
+    "schemas/history_results.schema.json": "da17caa87e8b6e196ee7af0bd8573b4706ca90b22bd682175c5a4203d8cc894f",
+    "schemas/implementation_freeze.schema.json": "55e850f129ca40228af5ffa80a811d1d7603f38db86f66d9019e3a654acdcf51"
+  },
+  "scientific_protocol_manifest_id": "6caae5a8d5cebebdc94ac31c1afeb1202b6627ff0949aa2fb3c002e7bca29845",
+  "scientific_protocol_manifest_sha256": "315479da6ef361311219e9ba92b8b9d7cdfc7e1068bf44bb281b987e3f638a15",
+  "status": "READY_FOR_INDEPENDENT_AUDIT",
+  "stochastic_execution_count": 0,
+  "study_id": "UBOA_ROUTE_B_SYNTH_CONFIRMATORY_V1",
+  "synthetic_paths_generated_during_dry_run": 0
+}

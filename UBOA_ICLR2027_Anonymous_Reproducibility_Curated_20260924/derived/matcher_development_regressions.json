@@ -1,0 +1,256 @@
+{
+  "evaluation_role": "development-only targeted regressions, not independent or expert-adjudicated benchmark",
+  "cases": [
+    {
+      "id": "absent_empirical_fields",
+      "expected_status": "UNSUPPORTED_REQUEST",
+      "original": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      },
+      "revised": {
+        "status": "UNSUPPORTED_REQUEST",
+        "reasons": [
+          "MISSING_FIELD:request.metadata.design_mixture"
+        ]
+      }
+    },
+    {
+      "id": "zero_empirical_denominator",
+      "expected_status": "UNSUPPORTED_REQUEST",
+      "original": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      },
+      "revised": {
+        "status": "UNSUPPORTED_REQUEST",
+        "reasons": [
+          "INVALID_DENOMINATOR:request"
+        ]
+      }
+    },
+    {
+      "id": "unverified_coarsening_premise",
+      "expected_status": "UNSUPPORTED_REQUEST",
+      "original": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      },
+      "revised": {
+        "status": "UNSUPPORTED_REQUEST",
+        "reasons": [
+          "UNVERIFIED_ASSUMPTION:conditional_local_validity"
+        ]
+      }
+    },
+    {
+      "id": "wrong_conditional_conclusion",
+      "expected_status": "UNSUPPORTED_REQUEST",
+      "original": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      },
+      "revised": {
+        "status": "UNSUPPORTED_REQUEST",
+        "reasons": [
+          "CONCLUSION_TYPE_MISMATCH"
+        ]
+      }
+    },
+    {
+      "id": "wrong_same_field_conclusion",
+      "expected_status": "UNSUPPORTED_REQUEST",
+      "original": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      },
+      "revised": {
+        "status": "UNSUPPORTED_REQUEST",
+        "reasons": [
+          "CONCLUSION_TYPE_MISMATCH"
+        ]
+      }
+    },
+    {
+      "id": "malformed_scientific_object",
+      "expected_status": "UNSUPPORTED_REQUEST",
+      "original": {
+        "status": "EXCEPTION",
+        "exception_type": "TypeError"
+      },
+      "revised": {
+        "status": "UNSUPPORTED_REQUEST",
+        "reasons": [
+          "INVALID_FIELD_TYPE:request.scientific"
+        ]
+      }
+    },
+    {
+      "id": "malformed_assumptions",
+      "expected_status": "UNSUPPORTED_REQUEST",
+      "original": {
+        "status": "EXCEPTION",
+        "exception_type": "TypeError"
+      },
+      "revised": {
+        "status": "UNSUPPORTED_REQUEST",
+        "reasons": [
+          "INVALID_FIELD_TYPE:evidence.premises"
+        ]
+      }
+    },
+    {
+      "id": "false_string_identity",
+      "expected_status": "UNSUPPORTED_REQUEST",
+      "original": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      },
+      "revised": {
+        "status": "UNSUPPORTED_REQUEST",
+        "reasons": [
+          "POINTWISE_IDENTITY_NOT_CERTIFIED"
+        ]
+      }
+    },
+    {
+      "id": "false_string_copy_sidecondition",
+      "expected_status": "UNSUPPORTED_REQUEST",
+      "original": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      },
+      "revised": {
+        "status": "UNSUPPORTED_REQUEST",
+        "reasons": [
+          "OBSERVED_COPY_SIDE_CONDITION_FAILED:method_retained"
+        ]
+      }
+    },
+    {
+      "id": "false_string_coarsening_sidecondition",
+      "expected_status": "UNSUPPORTED_REQUEST",
+      "original": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      },
+      "revised": {
+        "status": "UNSUPPORTED_REQUEST",
+        "reasons": [
+          "COARSENING_SIDE_CONDITION_FAILED:same_joint_law"
+        ]
+      }
+    },
+    {
+      "id": "wrong_local_evidence_type",
+      "expected_status": "UNSUPPORTED_REQUEST",
+      "original": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      },
+      "revised": {
+        "status": "UNSUPPORTED_REQUEST",
+        "reasons": [
+          "CONCLUSION_TYPE_MISMATCH"
+        ]
+      }
+    },
+    {
+      "id": "empty_local_premises",
+      "expected_status": "UNSUPPORTED_REQUEST",
+      "original": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      },
+      "revised": {
+        "status": "UNSUPPORTED_REQUEST",
+        "reasons": [
+          "UNVERIFIED_ASSUMPTION:truth_events_measurable"
+        ]
+      }
+    },
+    {
+      "id": "false_string_fixed_sequence_flag",
+      "expected_status": "UNSUPPORTED_REQUEST",
+      "original": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      },
+      "revised": {
+        "status": "UNSUPPORTED_REQUEST",
+        "reasons": [
+          "FIXED_SEQUENCE_SIDE_CONDITION_FAILED:potential_tests_defined"
+        ]
+      }
+    },
+    {
+      "id": "wrong_observed_evidence_type",
+      "expected_status": "UNSUPPORTED_REQUEST",
+      "original": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      },
+      "revised": {
+        "status": "UNSUPPORTED_REQUEST",
+        "reasons": [
+          "CONCLUSION_TYPE_MISMATCH"
+        ]
+      }
+    },
+    {
+      "id": "wrong_empirical_evidence_type",
+      "expected_status": "UNSUPPORTED_REQUEST",
+      "original": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      },
+      "revised": {
+        "status": "UNSUPPORTED_REQUEST",
+        "reasons": [
+          "CONCLUSION_TYPE_MISMATCH"
+        ]
+      }
+    },
+    {
+      "id": "structural_scope_swap",
+      "expected_status": "UNSUPPORTED_REQUEST",
+      "original": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      },
+      "revised": {
+        "status": "UNSUPPORTED_REQUEST",
+        "reasons": [
+          "ERROR_EVENT_MISMATCH"
+        ]
+      }
+    },
+    {
+      "id": "valid_conditional_same_field",
+      "expected_status": "ESTABLISHED",
+      "original": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      },
+      "revised": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      }
+    },
+    {
+      "id": "valid_new_positive_denominator",
+      "expected_status": "ESTABLISHED",
+      "original": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      },
+      "revised": {
+        "status": "ESTABLISHED",
+        "reasons": []
+      }
+    }
+  ],
+  "invalid_cases": 16,
+  "valid_controls": 2,
+  "revised_status_matches": 18
+}

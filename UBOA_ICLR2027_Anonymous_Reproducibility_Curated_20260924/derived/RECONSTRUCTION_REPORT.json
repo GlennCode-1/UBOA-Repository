@@ -1,0 +1,29 @@
+{
+  "F2_source_files_verified": 15,
+  "all_36_F1_hashes_verified": 36,
+  "analysis_role": "deterministic reconstruction and post hoc secondary analysis; does not replace original confirmation",
+  "conditional_continuations_in_primary_family": 188416,
+  "conditional_continuations_recorded": 327680,
+  "environment": {
+    "numpy": "2.3.5",
+    "python": "3.13.5",
+    "scipy": "1.17.0"
+  },
+  "finite_first_true_null_histories": 46,
+  "histories": 80,
+  "history_node_records": 240,
+  "holm_first_step_count_cutoff": 257,
+  "holm_rejections": 0,
+  "independent_pathwise_replay": "NOT_PERFORMED: individual future paths/decisions not retained; original runtime counts only",
+  "independent_recomputed_aggregate_first_true_null_inclusion_violations": 0,
+  "new_paths_generated": 0,
+  "original_F2_sha256": "0f9d5bb9e6b19a1cffa3e1fbe38d34054a0c2328a03f12ea56efe6bf35ca285c",
+  "original_H_sha256": "5229432f2384a80b2cde4097c68cf08e383cdacbf67642f8de12537895c0e8c9",
+  "posthoc_99pct_simultaneous_upper_max": 0.002660670803116665,
+  "posthoc_99pct_simultaneous_upper_zero_count": 0.002056917670366294,
+  "recorded_invariant_violations": 0,
+  "retained_false_promotions": 1,
+  "rng_calls": 0,
+  "stochastic_execution": false,
+  "unique_coefficient_files": 123
+}

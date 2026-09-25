@@ -1,0 +1,21 @@
+--- challenge_workspace/evaluator_only/06_EVALUATOR_ONLY/revised/matcher.py
++++ UBOA_Review_Repair_20260916/09_NEXT_OUTPUTS/final_matcher/matcher.py
+@@ -194,6 +194,9 @@
+         failed = next((x for x in required if evidence["metadata"].get(x) is not True), None)
+         if failed:
+             return _unsupported(request, evidence, f"OBSERVED_COPY_SIDE_CONDITION_FAILED:{failed}")
++        provenance = evidence["metadata"].get("provenance")
++        if not isinstance(provenance, str) or not provenance.strip():
++            return _unsupported(request, evidence, "OBSERVED_COPY_PROVENANCE_MISSING")
+         return _established(request, evidence, "M2_OBSERVED_COPY")
+ 
+     if kind == "finite_design_empirical":
+@@ -217,6 +220,8 @@
+         mismatch = _validity_mismatch(request, evidence)
+         if mismatch:
+             return _unsupported(request, evidence, mismatch)
++        if not evidence["premises"]:
++            return _unsupported(request, evidence, "THEOREM_PREMISES_EMPTY")
+         premise = _unverified(evidence)
+         if premise:
+             return _unsupported(request, evidence, premise)

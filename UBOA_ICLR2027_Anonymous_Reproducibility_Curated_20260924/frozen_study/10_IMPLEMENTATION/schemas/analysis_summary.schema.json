@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UBOA Route-B Confirmatory Analysis Summary",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["study_id", "status", "h_freeze_manifest_sha256", "implementation_freeze_sha256", "analysis", "claim_boundary"],
+  "properties": {
+    "study_id": {"const": "UBOA_ROUTE_B_SYNTH_CONFIRMATORY_V1"},
+    "status": {"enum": ["CONFIRMATORY_IMPLEMENTATION_PASS", "IMPLEMENTATION_HOLD"]},
+    "h_freeze_manifest_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "implementation_freeze_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "analysis": {"type": "object"},
+    "claim_boundary": {"const": "implementation conformance within two frozen synthetic P-classes only"}
+  }
+}

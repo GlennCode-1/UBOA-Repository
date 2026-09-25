@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UBOA Route-B H Freeze Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["study_id", "implementation_freeze_sha256", "history_count", "histories"],
+  "properties": {
+    "study_id": {"const": "UBOA_ROUTE_B_SYNTH_CONFIRMATORY_V1"},
+    "implementation_freeze_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "history_count": {"const": 80},
+    "histories": {
+      "type": "array",
+      "minItems": 80,
+      "maxItems": 80,
+      "items": {
+        "type": "object",
+        "required": ["history_id", "cell_id", "outer_index", "outer_rng_key", "state_path_through_325", "selected_label", "validation_scores", "terminal_state", "truth_by_node", "first_true_null", "certificate_thresholds", "record_sha256"],
+        "properties": {
+          "history_id": {"type": "string"},
+          "cell_id": {"type": "string"},
+          "outer_index": {"type": "integer", "minimum": 0, "maximum": 7},
+          "state_path_through_325": {"type": "array", "minItems": 326, "maxItems": 326, "items": {"type": "number"}},
+          "truth_by_node": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "boolean"}},
+          "first_true_null": {"type": ["integer", "null"], "minimum": 0, "maximum": 2},
+          "certificate_thresholds": {"type": "array", "minItems": 3, "maxItems": 3, "items": {"type": "number", "minimum": 0}}
+        }
+      }
+    }
+  }
+}

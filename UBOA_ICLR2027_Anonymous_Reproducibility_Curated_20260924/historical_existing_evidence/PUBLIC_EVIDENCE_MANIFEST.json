@@ -1,0 +1,977 @@
+{
+  "derived_counts": {
+    "mask_count": 17,
+    "task_count": 6
+  },
+  "derived_file_count": 22,
+  "environment": {
+    "numpy": "2.0.2",
+    "platform": "macOS-26.5.1-arm64-arm-64bit",
+    "python": "3.9.6"
+  },
+  "files": [
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C07_BROWNIAN_GENERATOR_SOURCE",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C07_BROWNIAN_REFERENCE/independent_implementation.py",
+      "public_sha256": "97813e2790ad9b34a840fbe13394b620cad142c26453ed19bead1cf48b7c70f5",
+      "public_size_bytes": 2152,
+      "role": "historical reference generator source; exported but not executed",
+      "source_repository_relative_path": "iclr2027_redesign/07_method_integrity_repair/02_c2_reference_validation/independent_implementation.py",
+      "source_sha256": "97813e2790ad9b34a840fbe13394b620cad142c26453ed19bead1cf48b7c70f5",
+      "source_size_bytes": 2152,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C07_BROWNIAN_DECLARED_CONFIG",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C07_BROWNIAN_REFERENCE/reference_critical_values.md",
+      "public_sha256": "52eff164082d3c774d645231b4bf10b09a4f5893b928873ecb5ae3d8210bf7e6",
+      "public_size_bytes": 1016,
+      "role": "declared paths/grid/seed/quantile contract",
+      "source_repository_relative_path": "iclr2027_redesign/07_method_integrity_repair/02_c2_reference_validation/reference_critical_values.md",
+      "source_sha256": "52eff164082d3c774d645231b4bf10b09a4f5893b928873ecb5ae3d8210bf7e6",
+      "source_size_bytes": 1016,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C07_BROWNIAN_SORTED_REFERENCE",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C07_BROWNIAN_REFERENCE/brownian_reference_sorted.npy",
+      "public_sha256": "bbb43c2d578f85aef64b30f873812143409a9f3c341ceaf3ce4f42d97ff5f5cf",
+      "public_size_bytes": 1600128,
+      "role": "historical 200000-draw sorted reference array",
+      "source_repository_relative_path": "iclr2027_redesign/08_local_method_feasibility_v2/01_protocol/brownian_reference_sorted.npy",
+      "source_sha256": "bbb43c2d578f85aef64b30f873812143409a9f3c341ceaf3ce4f42d97ff5f5cf",
+      "source_size_bytes": 1600128,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C03_COHORT_MASTER_PROTOCOL",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C03_COHORT_PROTOCOL/MASTER_PROTOCOL.md",
+      "public_sha256": "2f41b048eccc20e8aad255b5f8b09b01763aa78f06447481a1dd076cd301cb35",
+      "public_size_bytes": 12024,
+      "role": "planned cohort protocol",
+      "source_repository_relative_path": "iclr2027_redesign/36_parallel_strong_accept_program/00_program_freeze/MASTER_PROTOCOL.md",
+      "source_sha256": "2f41b048eccc20e8aad255b5f8b09b01763aa78f06447481a1dd076cd301cb35",
+      "source_size_bytes": 12024,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C03_STAGE36_EXECUTION_SOURCE",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C03_COHORT_PROTOCOL/run_workstream_e.py",
+      "public_sha256": "4bcd5b6a3373638b69f425f951a1f271dbc0d35f4f069f8da7cb0157c7e1f5d8",
+      "public_size_bytes": 14312,
+      "role": "executed training/validation preprocessing and selection source",
+      "source_repository_relative_path": "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/scripts/run_workstream_e.py",
+      "source_sha256": "4bcd5b6a3373638b69f425f951a1f271dbc0d35f4f069f8da7cb0157c7e1f5d8",
+      "source_size_bytes": 14312,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C03_STAGE36_SELECTION_REGISTRY",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C03_VALIDATION/selection_registry.jsonl",
+      "public_sha256": "1701dc3719c1be1950d5a46b1a37b5ad23c14d945ae29d10f7e47cd5cba4bc2b",
+      "public_size_bytes": 4947,
+      "role": "saved aggregate candidate scores and selected realization records",
+      "source_repository_relative_path": "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/03_training_validation/selection_registry.jsonl",
+      "source_sha256": "1701dc3719c1be1950d5a46b1a37b5ad23c14d945ae29d10f7e47cd5cba4bc2b",
+      "source_size_bytes": 4947,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C03_STAGE37_GUARDED_RUNNER_SOURCE",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C03_COHORT_PROTOCOL/guarded_oos_runner.py",
+      "public_sha256": "38f12949bb9bbb815647c7a2b0ab444f390bc3fc88448fd0633ca31a2cfcc99d",
+      "public_size_bytes": 20506,
+      "role": "later guarded preprocessing/evaluation source; exported but not executed",
+      "source_repository_relative_path": "iclr2027_redesign/37_prospective_cohort_guarded_oos/03_execution_package/guarded_oos_runner.py",
+      "source_sha256": "38f12949bb9bbb815647c7a2b0ab444f390bc3fc88448fd0633ca31a2cfcc99d",
+      "source_size_bytes": 20506,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C03_VALIDATION_LOSSES_UCI235_HOUSEHOLD_POWER",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C03_VALIDATION/validation_losses/UCI235_HOUSEHOLD_POWER_validation_losses.npz",
+      "public_sha256": "c47e529c4113d1a1e01ef7b79b034c6535422497b15594f59190b0e7e14b9743",
+      "public_size_bytes": 115765,
+      "role": "saved selected/comparator validation-loss array",
+      "source_repository_relative_path": "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/03_training_validation/UCI235_HOUSEHOLD_POWER_validation_losses.npz",
+      "source_sha256": "c47e529c4113d1a1e01ef7b79b034c6535422497b15594f59190b0e7e14b9743",
+      "source_size_bytes": 115765,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C03_VALIDATION_LOSSES_UCI275_BIKE_HOURLY",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C03_VALIDATION/validation_losses/UCI275_BIKE_HOURLY_validation_losses.npz",
+      "public_sha256": "95be5006eebb5c90cea4730b8dcecda563cacc63acb959c8435e5e2f5bc637b2",
+      "public_size_bytes": 39844,
+      "role": "saved selected/comparator validation-loss array",
+      "source_repository_relative_path": "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/03_training_validation/UCI275_BIKE_HOURLY_validation_losses.npz",
+      "source_sha256": "95be5006eebb5c90cea4730b8dcecda563cacc63acb959c8435e5e2f5bc637b2",
+      "source_size_bytes": 39844,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C03_VALIDATION_LOSSES_UCI360_AIR_QUALITY_CO",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C03_VALIDATION/validation_losses/UCI360_AIR_QUALITY_CO_validation_losses.npz",
+      "public_sha256": "465d5ecfcfd111653ba153e463544b68f523fc6e3902c3b1e4ee325dff6163f6",
+      "public_size_bytes": 23414,
+      "role": "saved selected/comparator validation-loss array",
+      "source_repository_relative_path": "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/03_training_validation/UCI360_AIR_QUALITY_CO_validation_losses.npz",
+      "source_sha256": "465d5ecfcfd111653ba153e463544b68f523fc6e3902c3b1e4ee325dff6163f6",
+      "source_size_bytes": 23414,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C03_VALIDATION_LOSSES_UCI374_APPLIANCES",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C03_VALIDATION/validation_losses/UCI374_APPLIANCES_validation_losses.npz",
+      "public_sha256": "20d2752419aa267d38e4a2104946ad54543c43af87ca8a695559a66031a84115",
+      "public_size_bytes": 41658,
+      "role": "saved selected/comparator validation-loss array",
+      "source_repository_relative_path": "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/03_training_validation/UCI374_APPLIANCES_validation_losses.npz",
+      "source_sha256": "20d2752419aa267d38e4a2104946ad54543c43af87ca8a695559a66031a84115",
+      "source_size_bytes": 41658,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C03_VALIDATION_LOSSES_UCI492_METRO_TRAFFIC",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C03_VALIDATION/validation_losses/UCI492_METRO_TRAFFIC_validation_losses.npz",
+      "public_sha256": "bf6c6ceeeadbfea186f4ecdde0e4fdb5e4f6b95352eae6cbd9c48a216f2884df",
+      "public_size_bytes": 129747,
+      "role": "saved selected/comparator validation-loss array",
+      "source_repository_relative_path": "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/03_training_validation/UCI492_METRO_TRAFFIC_validation_losses.npz",
+      "source_sha256": "bf6c6ceeeadbfea186f4ecdde0e4fdb5e4f6b95352eae6cbd9c48a216f2884df",
+      "source_size_bytes": 129747,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C03_VALIDATION_LOSSES_UCI501_BEIJING_PM25",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C03_VALIDATION/validation_losses/UCI501_BEIJING_PM25_validation_losses.npz",
+      "public_sha256": "da7ae1bff45f6e6e5fbd9f04031d141e1549e0a92f091ec9f417c72ff324f40e",
+      "public_size_bytes": 46148,
+      "role": "saved selected/comparator validation-loss array",
+      "source_repository_relative_path": "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/03_training_validation/UCI501_BEIJING_PM25_validation_losses.npz",
+      "source_sha256": "da7ae1bff45f6e6e5fbd9f04031d141e1549e0a92f091ec9f417c72ff324f40e",
+      "source_size_bytes": 46148,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C07_STAGE37_UCI374_APPLIANCES_BASE_PAIRED_LOSS_EVIDENCE",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI374_APPLIANCES/base_paired_loss_evidence.npz",
+      "public_sha256": "a4210fc328adb21c08530b849ec8aaf4bd99a1022d87d02ae51a03192142220c",
+      "public_size_bytes": 11467,
+      "role": "saved historical paired-loss evidence",
+      "source_repository_relative_path": "iclr2027_redesign/37_prospective_cohort_guarded_oos/04_appliances/base_paired_loss_evidence.npz",
+      "source_sha256": "a4210fc328adb21c08530b849ec8aaf4bd99a1022d87d02ae51a03192142220c",
+      "source_size_bytes": 11467,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C07_STAGE37_UCI374_APPLIANCES_REACHED_NODE_RECORDS",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI374_APPLIANCES/reached_node_records.json",
+      "public_sha256": "9b823c3eb243040cd5e3c65086079863ee2ed4f39bddbe6597a0fe2163d55e66",
+      "public_size_bytes": 1142,
+      "role": "saved historical reached-node statistics",
+      "source_repository_relative_path": "iclr2027_redesign/37_prospective_cohort_guarded_oos/04_appliances/reached_node_records.json",
+      "source_sha256": "9b823c3eb243040cd5e3c65086079863ee2ed4f39bddbe6597a0fe2163d55e66",
+      "source_size_bytes": 1142,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C07_STAGE37_UCI235_HOUSEHOLD_POWER_BASE_PAIRED_LOSS_EVIDENCE",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI235_HOUSEHOLD_POWER/base_paired_loss_evidence.npz",
+      "public_sha256": "34670e341dbe3d102dd8078c5643ed03921a447ad320a97161ad23ed2a1fabe2",
+      "public_size_bytes": 17823,
+      "role": "saved historical paired-loss evidence",
+      "source_repository_relative_path": "iclr2027_redesign/37_prospective_cohort_guarded_oos/05_household_power/base_paired_loss_evidence.npz",
+      "source_sha256": "34670e341dbe3d102dd8078c5643ed03921a447ad320a97161ad23ed2a1fabe2",
+      "source_size_bytes": 17823,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C07_STAGE37_UCI235_HOUSEHOLD_POWER_REACHED_NODE_RECORDS",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI235_HOUSEHOLD_POWER/reached_node_records.json",
+      "public_sha256": "f90fb672d9b8db45d69f62caeed892029a9d5bfe488782153c12872f73d5685c",
+      "public_size_bytes": 1153,
+      "role": "saved historical reached-node statistics",
+      "source_repository_relative_path": "iclr2027_redesign/37_prospective_cohort_guarded_oos/05_household_power/reached_node_records.json",
+      "source_sha256": "f90fb672d9b8db45d69f62caeed892029a9d5bfe488782153c12872f73d5685c",
+      "source_size_bytes": 1153,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C07_STAGE37_UCI360_AIR_QUALITY_CO_BASE_PAIRED_LOSS_EVIDENCE",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI360_AIR_QUALITY_CO/base_paired_loss_evidence.npz",
+      "public_sha256": "a0b139c1f6fa06f4accfbf7f7adbeafec705e43e018f264e52c2d9355960e1c0",
+      "public_size_bytes": 13516,
+      "role": "saved historical paired-loss evidence",
+      "source_repository_relative_path": "iclr2027_redesign/37_prospective_cohort_guarded_oos/06_air_quality_co/base_paired_loss_evidence.npz",
+      "source_sha256": "a0b139c1f6fa06f4accfbf7f7adbeafec705e43e018f264e52c2d9355960e1c0",
+      "source_size_bytes": 13516,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C07_STAGE37_UCI360_AIR_QUALITY_CO_REACHED_NODE_RECORDS",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI360_AIR_QUALITY_CO/reached_node_records.json",
+      "public_sha256": "1486c2ac74d7fafb8b2cd68f9fbfa98bed957c0f65cb9c472c348da140493459",
+      "public_size_bytes": 1156,
+      "role": "saved historical reached-node statistics",
+      "source_repository_relative_path": "iclr2027_redesign/37_prospective_cohort_guarded_oos/06_air_quality_co/reached_node_records.json",
+      "source_sha256": "1486c2ac74d7fafb8b2cd68f9fbfa98bed957c0f65cb9c472c348da140493459",
+      "source_size_bytes": 1156,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C07_STAGE37_UCI492_METRO_TRAFFIC_BASE_PAIRED_LOSS_EVIDENCE",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI492_METRO_TRAFFIC/base_paired_loss_evidence.npz",
+      "public_sha256": "86d6c621ccb9dab7611f37ce1fadfe366e8e19ed7e063c18f87f88ff2ed1437a",
+      "public_size_bytes": 14674,
+      "role": "saved historical paired-loss evidence",
+      "source_repository_relative_path": "iclr2027_redesign/37_prospective_cohort_guarded_oos/07_metro_traffic/base_paired_loss_evidence.npz",
+      "source_sha256": "86d6c621ccb9dab7611f37ce1fadfe366e8e19ed7e063c18f87f88ff2ed1437a",
+      "source_size_bytes": 14674,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C07_STAGE37_UCI492_METRO_TRAFFIC_REACHED_NODE_RECORDS",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage37/UCI492_METRO_TRAFFIC/reached_node_records.json",
+      "public_sha256": "9b1b20c4a8e329b872a35c8a9230258a33389966dcf2c7acbe6dceb7ed6fb3ee",
+      "public_size_bytes": 1154,
+      "role": "saved historical reached-node statistics",
+      "source_repository_relative_path": "iclr2027_redesign/37_prospective_cohort_guarded_oos/07_metro_traffic/reached_node_records.json",
+      "source_sha256": "9b1b20c4a8e329b872a35c8a9230258a33389966dcf2c7acbe6dceb7ed6fb3ee",
+      "source_size_bytes": 1154,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C07_STAGE32_WEATHER_BASE_PAIRED_LOSS_EVIDENCE",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage32/Weather/base_paired_loss_evidence.jsonl",
+      "public_sha256": "14572ecca88092089e7e290ffca411aeb2ad9f72256daa6fa9b64d6d60de7db5",
+      "public_size_bytes": 928748,
+      "role": "saved historical paired-loss evidence",
+      "source_repository_relative_path": "iclr2027_redesign/32_guarded_r1_oos_execution/03_weather_execution/base_paired_loss_evidence.jsonl",
+      "source_sha256": "14572ecca88092089e7e290ffca411aeb2ad9f72256daa6fa9b64d6d60de7db5",
+      "source_size_bytes": 928748,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C07_STAGE32_WEATHER_REACHED_NODE_RECORDS",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage32/Weather/reached_node_records.jsonl",
+      "public_sha256": "2a3d3ad3534d62216af540d8e6ee7e101944ac0c590627d2f4bc393de61cb1ad",
+      "public_size_bytes": 1066,
+      "role": "saved historical reached-node statistics",
+      "source_repository_relative_path": "iclr2027_redesign/32_guarded_r1_oos_execution/03_weather_execution/reached_node_records.jsonl",
+      "source_sha256": "2a3d3ad3534d62216af540d8e6ee7e101944ac0c590627d2f4bc393de61cb1ad",
+      "source_size_bytes": 1066,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C07_STAGE32_ETTM2_BASE_PAIRED_LOSS_EVIDENCE",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage32/ETTm2/base_paired_loss_evidence.jsonl",
+      "public_sha256": "58908343ab32b2c2edccec19f016f422e764c8143ec4d8542b1a840a05408e1c",
+      "public_size_bytes": 1021985,
+      "role": "saved historical paired-loss evidence",
+      "source_repository_relative_path": "iclr2027_redesign/32_guarded_r1_oos_execution/04_ettm2_execution/base_paired_loss_evidence.jsonl",
+      "source_sha256": "58908343ab32b2c2edccec19f016f422e764c8143ec4d8542b1a840a05408e1c",
+      "source_size_bytes": 1021985,
+      "transformations": []
+    },
+    {
+      "anonymization": "identity-marker scan passed; no content change",
+      "id": "C07_STAGE32_ETTM2_REACHED_NODE_RECORDS",
+      "identity": "HISTORICAL_ORIGINAL_BYTE_COPY",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/C07_REACHED_STATISTICS/stage32/ETTm2/reached_node_records.jsonl",
+      "public_sha256": "cb9f2da414954284b9e48283d2f903e9e78aee88964dcf4ef67e33326858d77e",
+      "public_size_bytes": 1068,
+      "role": "saved historical reached-node statistics",
+      "source_repository_relative_path": "iclr2027_redesign/32_guarded_r1_oos_execution/04_ettm2_execution/reached_node_records.jsonl",
+      "source_sha256": "cb9f2da414954284b9e48283d2f903e9e78aee88964dcf4ef67e33326858d77e",
+      "source_size_bytes": 1068,
+      "transformations": []
+    },
+    {
+      "id": "DERIVED_DERIVATION_METHOD_MD",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/DERIVATION_METHOD.md",
+      "public_sha256": "a5da10cdad0f5d5cf43e9697d7ec8eb42455eb4314bdac5f4dd040429730635f",
+      "public_size_bytes": 592,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_HOUSEHOLD_60ROW_TIMESTAMP_GROUPS_TSV",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/household_60row_timestamp_groups.tsv",
+      "public_sha256": "b9a5f90c933f8a0b7f8e83cc3e7e2b0792eb040cce5bc5dbbd211c96519564fe",
+      "public_size_bytes": 1400125,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASK_INDEX_JSON",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/mask_index.json",
+      "public_sha256": "fd95a883de7b0ea9439695d6cf5f06e23e6363c90d9fd0876140e9b890901bfe",
+      "public_size_bytes": 8548,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI235_HOUSEHOLD_POWER__MEMBER_01_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI235_HOUSEHOLD_POWER__member_01.npy",
+      "public_sha256": "826d6ff4f104d54516c5e944dcf439b45247efe0bc41ae17be08676ff6dcffcd",
+      "public_size_bytes": 1660335,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI275_BIKE_HOURLY__MEMBER_01_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI275_BIKE_HOURLY__member_01.npy",
+      "public_sha256": "ba922b049cd3f8e3f698e898fbbaba3e7776a9f0aa6e43e0273f1bc52073028d",
+      "public_size_bytes": 14031,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI360_AIR_QUALITY_CO__MEMBER_01_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI360_AIR_QUALITY_CO__member_01.npy",
+      "public_sha256": "bcda49d0c4f8b91fed7f549bfce7700729cb9a286781e7f7be527cba3c14e639",
+      "public_size_bytes": 7614,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI374_APPLIANCES__MEMBER_01_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI374_APPLIANCES__member_01.npy",
+      "public_sha256": "503293794735daec9e4b81abf1a44f0189dd6194d66e48e7290a3b0f89e505f8",
+      "public_size_bytes": 15916,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI492_METRO_TRAFFIC__MEMBER_01_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI492_METRO_TRAFFIC__member_01.npy",
+      "public_sha256": "3c925cba29b84e89abcef4a55bf354354a0e3687a00ef3f99d8b3e8ac4be09a8",
+      "public_size_bytes": 38691,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI501_BEIJING_PM25__MEMBER_01_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI501_BEIJING_PM25__member_01.npy",
+      "public_sha256": "349971d602118fd834d85dd27e802ade5cc28d6b24465e72622427a22058e662",
+      "public_size_bytes": 28179,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI501_BEIJING_PM25__MEMBER_02_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI501_BEIJING_PM25__member_02.npy",
+      "public_sha256": "86e52f41d13fe5e140c97ed5e3d1fcd1c5a806cc2917c2f5e1788839e5407e9a",
+      "public_size_bytes": 28179,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI501_BEIJING_PM25__MEMBER_03_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI501_BEIJING_PM25__member_03.npy",
+      "public_sha256": "f0fe4f38ccf1f3cc6be5a78ae65ce69547caf3558df3dd31b818716e5725776b",
+      "public_size_bytes": 28179,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI501_BEIJING_PM25__MEMBER_04_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI501_BEIJING_PM25__member_04.npy",
+      "public_sha256": "ae5b0c2f8124b2ed5940f177143187cb49a916d1e563d49e3b02e14a32d98b42",
+      "public_size_bytes": 28179,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI501_BEIJING_PM25__MEMBER_05_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI501_BEIJING_PM25__member_05.npy",
+      "public_sha256": "5451bb547b06cba45fc76cbaebed0c6e23188ac82d2adb1fd75f4ded509d8201",
+      "public_size_bytes": 28179,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI501_BEIJING_PM25__MEMBER_06_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI501_BEIJING_PM25__member_06.npy",
+      "public_sha256": "e1d5b06fbff62775f638774b012784e7e4808203e4f4a23b4e448bb8cc06668f",
+      "public_size_bytes": 28179,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI501_BEIJING_PM25__MEMBER_07_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI501_BEIJING_PM25__member_07.npy",
+      "public_sha256": "6b5f93c05a86c2d656f8c702f3b15926dac37c073d53f7cccaf5d7e3235b572f",
+      "public_size_bytes": 28179,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI501_BEIJING_PM25__MEMBER_08_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI501_BEIJING_PM25__member_08.npy",
+      "public_sha256": "2304e08380f7bdb7b9897c9e844a3eb4f59676b8fccbfcb82c4a05289dffa5bc",
+      "public_size_bytes": 28179,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI501_BEIJING_PM25__MEMBER_09_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI501_BEIJING_PM25__member_09.npy",
+      "public_sha256": "b25201c4765083f3a008f67959ff19b897a71590b7a5f93b2a64eef0a04098e4",
+      "public_size_bytes": 28179,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI501_BEIJING_PM25__MEMBER_10_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI501_BEIJING_PM25__member_10.npy",
+      "public_sha256": "59d47e310821ed71ecd98eadd28d00f0e967d097f255e4bb051edfe1ed2653d8",
+      "public_size_bytes": 28179,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI501_BEIJING_PM25__MEMBER_11_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI501_BEIJING_PM25__member_11.npy",
+      "public_sha256": "53afe43b9e38f1cef5ba210a83f53f2fd18fb5104ca3a6dce1d409685c5e3b69",
+      "public_size_bytes": 28179,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MASKS_UCI501_BEIJING_PM25__MEMBER_12_NPY",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/masks/UCI501_BEIJING_PM25__member_12.npy",
+      "public_sha256": "711ea6941ab058c35474db9d64090841d7bd8052634332f2dd1efe56e4832d7a",
+      "public_size_bytes": 28179,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "DERIVED_MISSINGNESS_SUMMARY_JSON",
+      "identity": "DERIVED_FROM_EXISTING_PREFIX",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/DERIVED_PREFIX_DIAGNOSTICS/missingness_summary.json",
+      "public_sha256": "bffca9f075a1679fbc5017b312b277b1afbd2eb0d5a2ad4a70d8b32959c0ad7c",
+      "public_size_bytes": 6507,
+      "role": "deterministic prefix missingness/timestamp diagnostic",
+      "source_archive_sha256": {
+        "UCI235_HOUSEHOLD_POWER": "9f84b46ade8a2d8e1286ec4b2b6c2987a45a755c59f263be3b3b3d10dfbda3ff",
+        "UCI275_BIKE_HOURLY": "b70182d0d0508e9abbb79306ce5c0cec34869000f8220175ac83d11dbe845401",
+        "UCI360_AIR_QUALITY_CO": "d4a64013fb385288a8a48d9d193ca7079b2e1bbddf6f8d458feb8c08ab2b8a2a",
+        "UCI374_APPLIANCES": "2fccf354445d886e7917620b0195db1f3e3e34d5a067a93b844694a4c561255a",
+        "UCI492_METRO_TRAFFIC": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+        "UCI501_BEIJING_PM25": "b04da438b2f331ac0ffd45aebdfec0d20d2367feb5f6948c4b1f7ce1191e33c4"
+      },
+      "source_repository_relative_paths": [
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci374.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci501.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci275.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci235.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci360.zip",
+        "iclr2027_redesign/36_parallel_strong_accept_program/E_prospective_real_cohort/00_metadata_inventory/opaque_archives/uci492.zip"
+      ],
+      "transformations": [
+        "deterministic prefix-only target-missingness/timestamp derivation"
+      ]
+    },
+    {
+      "id": "EXPORT_DERIVATION_TOOL",
+      "identity": "NEW_EXPORT_TOOL",
+      "new_scientific_outcome": false,
+      "public_path": "PUBLIC_EVIDENCE/TOOLS/export_existing_evidence.py",
+      "public_sha256": "a63b7f29e79d375c2850de4dd0aa835c82c1ea067a397b94c7d3bce3527c7cca",
+      "public_size_bytes": 21845,
+      "role": "deterministic allowlist export and prefix-diagnostic derivation source",
+      "transformations": []
+    }
+  ],
+  "hard_zero": {
+    "confirmatory_reruns": 0,
+    "new_prospective_oos_reads": 0,
+    "new_random_samples": 0,
+    "rng_calls": 0,
+    "training_or_fitting": 0
+  },
+  "identity_statement": "original public copies retain source bytes; derived objects are labeled and never represented as historical execution logs",
+  "original_file_count": 25,
+  "schema": "uboa.existing_evidence_export.v1",
+  "source_package": {
+    "name": "UBOA_Forensics_Challenge_Followup_20260916.zip",
+    "sha256": "51a2a6d43cf9877d24071c9b7329746374a1becd928d0471d2ba4c99144c6323"
+  },
+  "status": "PARTIAL_EXISTING_EVIDENCE_EXPORT"
+}

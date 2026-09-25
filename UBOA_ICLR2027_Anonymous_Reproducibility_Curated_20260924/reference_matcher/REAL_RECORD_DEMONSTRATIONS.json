@@ -1,0 +1,10 @@
+{
+  "schema_version": "routea.real_record_demo.v1",
+  "purpose": "Deterministic retrospective demonstrations on saved Weather/ETTm2 protocol metadata; no scientific statistic is recomputed.",
+  "cases": [
+    {"id":"weather_observed_to_full_history_guarantee","expected_status":"UNSUPPORTED_REQUEST","expected_reason":"OBSERVED_TO_GUARANTEE_FORBIDDEN"},
+    {"id":"ettm2_observed_to_full_history_guarantee","expected_status":"UNSUPPORTED_REQUEST","expected_reason":"OBSERVED_TO_GUARANTEE_FORBIDDEN"},
+    {"id":"weather_original_method_copy","expected_status":"UNSUPPORTED_REQUEST","expected_reason":"OBSERVED_COPY_SIDE_CONDITION_FAILED:method_retained"},
+    {"id":"ettm2_original_method_copy","expected_status":"UNSUPPORTED_REQUEST","expected_reason":"OBSERVED_COPY_SIDE_CONDITION_FAILED:method_retained"}
+  ]
+}
