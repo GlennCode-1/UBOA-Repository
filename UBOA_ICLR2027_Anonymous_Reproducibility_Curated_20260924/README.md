@@ -1,9 +1,5 @@
 # UBOA anonymous reproducibility package (curated public export)
 
-This is a filtered public distribution derived byte-for-byte from the audited anonymous ZIP. It preserves the scientific payload, frozen protocol, saved histories and counts, certificate inputs, matcher/challenge materials, historical evidence export, negative results, and explicit missing-artifact boundaries. Five internal workflow/reference files are intentionally omitted; the original ZIP and the omission record remain outside this archive.
-
-All checks below are deterministic. They must not call an RNG, generate future paths, train or fit a model, read a new prospective OOS, or execute the original confirmatory entry point. Aggregate reconstruction is not independent replay of individual future paths.
-
 ## Deterministic checks
 
 Run from this package root, in order:
